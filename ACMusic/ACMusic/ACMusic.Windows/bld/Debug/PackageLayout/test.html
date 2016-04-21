@@ -1,0 +1,68 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>test</title>
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/jquery.danmu.js"></script>
+    <style>
+        body {
+            font-family: "Microsoft YaHei" !important;
+            font-color: #222;
+        }
+        #danmuarea {
+            position: relative;
+            background: #222;
+            width: 100%;
+            height: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
+</head>
+<body class="home">
+    <div class="container text-center">
+        <div id="danmuarea" class="text-center" style="">
+            <div id="danmu">
+            </div>
+        </div>
+        <div class="text-center ">
+            <input type="text" id="text" />
+            <button type="button" onclick="send()">Send</button>
+            <button type="button" onclick="startParty()">Add</button>
+        </div>
+    </div>
+    <script>
+        (function () {
+            $("#danmu").danmu({
+                left: 0,
+                top: 0,
+                height: "100%",
+                width: "100%",
+                speed: 30000,
+                opacity: 1,
+                font_size_small: 16,
+                font_size_big: 24,
+                top_botton_danmu_time: 3000
+            }
+              );
+        })(jQuery);
+        function send() {
+            $('#danmu').danmu('danmu_resume');
+        }
+        function startParty() {
+            setInterval(sendTest, 300);
+        }
+        function sendTest() {
+            var text = document.getElementById('text').value;
+            var color = 'white';
+            var position = 0;
+            var time = $('#danmu').data("nowtime") + 3;
+            var size = '1';
+            var text_obj = '{ "text":"' + text + '","color":"' + color + '","size":"' + size + '","position":"' + position + '","time":' + time + '}';
+            var new_obj = eval('(' + text_obj + ')');
+            $('#danmu').danmu("add_danmu", new_obj);
+        }
+    </script>
+</body>
+</html>

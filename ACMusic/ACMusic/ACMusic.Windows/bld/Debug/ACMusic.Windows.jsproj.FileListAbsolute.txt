@@ -1,0 +1,15 @@
+c:\users\techm\documents\visual studio 2015\Projects\ACMusic\ACMusic\ACMusic.Windows\bin\Debug\AppxManifest.xml
+c:\users\techm\documents\visual studio 2015\Projects\ACMusic\ACMusic\ACMusic.Windows\bin\Debug\ACMusic.Windows.build.appxrecipe
+c:\users\techm\documents\visual studio 2015\Projects\ACMusic\ACMusic\ACMusic.Windows\bld\Debug\priconfig.xml
+c:\users\techm\documents\visual studio 2015\Projects\ACMusic\ACMusic\ACMusic.Windows\bld\Debug\priconfig.xml.intermediate
+c:\users\techm\documents\visual studio 2015\Projects\ACMusic\ACMusic\ACMusic.Windows\bld\Debug\layout.resfiles
+c:\users\techm\documents\visual studio 2015\Projects\ACMusic\ACMusic\ACMusic.Windows\bld\Debug\layout.resfiles.intermediate
+c:\users\techm\documents\visual studio 2015\Projects\ACMusic\ACMusic\ACMusic.Windows\bld\Debug\resources.resfiles
+c:\users\techm\documents\visual studio 2015\Projects\ACMusic\ACMusic\ACMusic.Windows\bld\Debug\resources.resfiles.intermediate
+c:\users\techm\documents\visual studio 2015\Projects\ACMusic\ACMusic\ACMusic.Windows\bld\Debug\pri.resfiles
+c:\users\techm\documents\visual studio 2015\Projects\ACMusic\ACMusic\ACMusic.Windows\bld\Debug\pri.resfiles.intermediate
+c:\users\techm\documents\visual studio 2015\Projects\ACMusic\ACMusic\ACMusic.Windows\bld\Debug\qualifiers.txt
+c:\users\techm\documents\visual studio 2015\Projects\ACMusic\ACMusic\ACMusic.Windows\bld\Debug\qualifiers.txt.intermediate
+c:\users\techm\documents\visual studio 2015\Projects\ACMusic\ACMusic\ACMusic.Windows\bld\Debug\MultipleQualifiersPerDimensionFound.txt
+c:\users\techm\documents\visual studio 2015\Projects\ACMusic\ACMusic\ACMusic.Windows\bld\Debug\ProjectArchitectures.txt
+C:\Users\techm\Documents\Visual Studio 2015\Projects\ACMusic\ACMusic\ACMusic.Windows\bin\Debug\resources.pri

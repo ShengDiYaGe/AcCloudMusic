@@ -1,0 +1,129 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta charset="utf-8" />
+    <title>ACMusic AC云音乐</title>
+    <!-- WinJS 引用 -->
+    <link href="//Microsoft.WinJS.2.0/css/ui-dark.css" rel="stylesheet" />
+    <script src="//Microsoft.WinJS.2.0/js/base.js"></script>
+    <script src="//Microsoft.WinJS.2.0/js/ui.js"></script>
+    <!-- ACMusic 引用 -->
+    <link href="/css/default.css" rel="stylesheet" />
+    <!-- 共享引用 -->
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/jquery.danmu.js"></script>
+    <script src="js/data0.js"></script>
+    <script src="js/data1.js"></script>
+    <script src="js/data2.js"></script>
+    <script src="js/data3.js"></script>
+    <style>
+        body {
+            font-family: "Microsoft YaHei" !important;
+            font-color: #222;
+        }
+        #danmuarea {
+            position: relative;
+            background: #222;
+            width: 100%;
+            height: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container text-center">
+        <div id="danmuarea" class="text-center">
+            <img id="img" src="img/back1.jpg" style="height:100%;width:100%;" />
+            <div id="danmu">
+            </div>
+            <audio id="myaudio"></audio>
+            <div style="padding-bottom:10px; text-align:center;">
+                <input type="text"   /><input type="button" value="蛤" onclick="shownull()" />
+            </div>
+        </div>
+    </div>
+    <script>
+        var data = [data0,data1, data2, data3];
+        (function () {
+            $("#danmu").danmu({
+                left: 0,
+                top: 0,
+                height: "100%",
+                width: "100%",
+                speed: 30000,
+                opacity: 1,
+                font_size_small: 16,
+                font_size_big: 24,
+                top_botton_danmu_time: 3000
+            }
+              );
+        })(jQuery);
+        function shownull() {
+            var color = 'white';
+            var position = 0;
+            var time = $('#danmu').data("nowtime") + 3;
+            var size = '1';
+            for (i = 0; i < 10; i++) {
+                currtime = time ;
+                var text_obj = '{ "text":"' + "逗你玩！" + '","color":"' + color + '","size":"' + size + '","position":"' + position + '","time":' + currtime + '}';
+                var new_obj = eval('(' + text_obj + ')');
+                $('#danmu').danmu("add_danmu", new_obj);
+            }
+            for (i = 0; i < 50; i++) {
+                currtime = time + i * 2;
+                var text_obj = '{ "text":"' + "逗你玩！" + '","color":"' + color + '","size":"' + size + '","position":"' + position + '","time":' + currtime + '}';
+                var new_obj = eval('(' + text_obj + ')');
+                $('#danmu').danmu("add_danmu", new_obj);
+            }
+        }
+        function startParty() {
+            var music = "http://yinyueshiting.baidu.com/data2/music/242157238/738785891447473661128.mp3?xcode=5989c20c245db9039e9cdd6067ee2141";
+            var oAudio = document.getElementById('myaudio');
+            oAudio.src = music;
+            oAudio.play();
+            sendTest();
+            $('#danmu').danmu('danmu_resume');
+            setInterval(getRemote,60000);
+            var m = 10; //随机显示图片的总数量
+            var n = Math.floor(Math.random() * m + 1)
+            var imgurl = "img/back" + n + ".jpg";
+            $("#img").attr("src", imgurl);
+            $('#danmu').danmu('danmu_resume');
+        }
+        function getRemote()
+        {
+            var m = 3; //随机显示图片的总数量
+            var n = Math.floor(Math.random() * m )
+            var obj = eval(data[n][0]);
+            console.log(n);
+            console.log(obj);
+            var time = $('#danmu').data("nowtime") ;
+            var color = 'black';
+            var position = 0;
+            var size = '1';
+            for (i = 0; i < obj.length; i++) {
+                currtime = time + i * 10;
+                var text_obj = '{ "text":"' + obj[i].m + '","color":"' + color + '","size":"' + size + '","position":"' + position + '","time":' + currtime + '}';
+
+                var new_obj = eval('(' + text_obj + ')');
+                $('#danmu').danmu("add_danmu", new_obj);
+            }
+        }
+        function sendTest() {
+            var color = 'white';
+            var position = 0;
+            var time = $('#danmu').data("nowtime") + 3;
+            var size = '1';
+            for (i = 0; i < 100; i++) {
+                currtime = time + i * 10;
+                var text_obj = '{ "text":"' + "你看看你上当的样子，真是好笑,蛤蛤蛤~~~" + '","color":"' + color + '","size":"' + size + '","position":"' + position + '","time":' + currtime + '}';
+                var new_obj = eval('(' + text_obj + ')');
+                $('#danmu').danmu("add_danmu", new_obj);
+            }
+        }
+        $(startParty());
+    </script>
+</body>
+</html>

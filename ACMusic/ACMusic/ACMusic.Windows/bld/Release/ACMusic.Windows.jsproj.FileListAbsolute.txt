@@ -1,0 +1,15 @@
+c:\users\techm\documents\visual studio 2015\Projects\ACMusic\ACMusic\ACMusic.Windows\bin\Release\AppxManifest.xml
+c:\users\techm\documents\visual studio 2015\Projects\ACMusic\ACMusic\ACMusic.Windows\bld\Release\priconfig.xml
+c:\users\techm\documents\visual studio 2015\Projects\ACMusic\ACMusic\ACMusic.Windows\bld\Release\priconfig.xml.intermediate
+c:\users\techm\documents\visual studio 2015\Projects\ACMusic\ACMusic\ACMusic.Windows\bld\Release\layout.resfiles
+c:\users\techm\documents\visual studio 2015\Projects\ACMusic\ACMusic\ACMusic.Windows\bld\Release\layout.resfiles.intermediate
+c:\users\techm\documents\visual studio 2015\Projects\ACMusic\ACMusic\ACMusic.Windows\bld\Release\resources.resfiles
+c:\users\techm\documents\visual studio 2015\Projects\ACMusic\ACMusic\ACMusic.Windows\bld\Release\resources.resfiles.intermediate
+c:\users\techm\documents\visual studio 2015\Projects\ACMusic\ACMusic\ACMusic.Windows\bld\Release\pri.resfiles
+c:\users\techm\documents\visual studio 2015\Projects\ACMusic\ACMusic\ACMusic.Windows\bld\Release\pri.resfiles.intermediate
+c:\users\techm\documents\visual studio 2015\Projects\ACMusic\ACMusic\ACMusic.Windows\bld\Release\qualifiers.txt
+c:\users\techm\documents\visual studio 2015\Projects\ACMusic\ACMusic\ACMusic.Windows\bld\Release\qualifiers.txt.intermediate
+c:\users\techm\documents\visual studio 2015\Projects\ACMusic\ACMusic\ACMusic.Windows\bld\Release\MultipleQualifiersPerDimensionFound.txt
+c:\users\techm\documents\visual studio 2015\Projects\ACMusic\ACMusic\ACMusic.Windows\bld\Release\ProjectArchitectures.txt
+c:\users\techm\documents\visual studio 2015\Projects\ACMusic\ACMusic\ACMusic.Windows\bin\Release\ACMusic.Windows.build.appxrecipe
+C:\Users\techm\Documents\Visual Studio 2015\Projects\ACMusic\ACMusic\ACMusic.Windows\bin\Release\ReverseMap\resources.pri

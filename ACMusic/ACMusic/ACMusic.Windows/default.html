@@ -1,0 +1,134 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta charset="utf-8" />
+    <title>ACMusic AC云音乐</title>
+    <!-- WinJS 引用 -->
+    <link href="//Microsoft.WinJS.2.0/css/ui-dark.css" rel="stylesheet" />
+    <script src="//Microsoft.WinJS.2.0/js/base.js"></script>
+    <script src="//Microsoft.WinJS.2.0/js/ui.js"></script>
+    <!-- ACMusic 引用 -->
+    <link href="/css/default.css" rel="stylesheet" />
+    <!-- 共享引用 -->
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/jquery.danmu.js"></script>
+    <script src="js/data0.js"></script>
+    <script src="js/data1.js"></script>
+    <script src="js/data2.js"></script>
+    <script src="js/data3.js"></script>
+    <style>
+        body {
+            font-family: "Microsoft YaHei" !important;
+            font-color: #222;
+        }
+        #danmuarea {
+            position: relative;
+            background: #222;
+            width: 100%;
+            height: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container text-center">
+        <div id="danmuarea" class="text-center">
+            <img id="img" src="img/back1.jpg" style="height:100%;width:100%;" />
+            <video id="myvideo" controls="controls"  loop="loop" autoplay="autoplay" width="100%" height="100%"   style="position: absolute; top: 0px;">
+                <source src="http://vplay.aixifan.com/des/acf-5/646446_mp4/646446_360p_43.mp4?k=e3e1f911b8974671d518accaccfd2f3b&t=1448083742" type="video/mp4" />
+            </video>
+            <div id="danmu">
+            </div>
+            <!--<audio id="myaudio" autoplay="autoplay" loop="loop"><source src="audio/acfun.ogg" type="audio/ogg" /></audio>-->
+            <div style="padding-bottom:10px; text-align:center;">
+                <input type="text"   /><input type="button" value="蛤" onclick="shownull()" />
+            </div>
+        </div>
+    </div>
+    <script>
+        var data = [data0,data1, data2, data3];
+        (function () {
+            $("#danmu").danmu({
+                left: 0,
+                top: 0,
+                height: "100%",
+                width: "100%",
+                speed: 30000,
+                opacity: 1,
+                font_size_small: 16,
+                font_size_big: 24,
+                top_botton_danmu_time: 3000
+            }
+              );
+        })(jQuery);
+        function shownull() {
+            document.getElementById("myvideo").currentTime = 0;
+            var color = 'white';
+            var position = 0;
+            var time = $('#danmu').data("nowtime") + 3;
+            var size = '1';
+            for (i = 0; i < 10; i++) {
+                currtime = time ;
+                var text_obj = '{ "text":"' + "逗你玩！" + '","color":"' + color + '","size":"' + size + '","position":"' + position + '","time":' + currtime + '}';
+                var new_obj = eval('(' + text_obj + ')');
+                $('#danmu').danmu("add_danmu", new_obj);
+            }
+            for (i = 0; i < 50; i++) {
+                currtime = time + i * 2;
+                var text_obj = '{ "text":"' + "逗你玩！" + '","color":"' + color + '","size":"' + size + '","position":"' + position + '","time":' + currtime + '}';
+                var new_obj = eval('(' + text_obj + ')');
+                $('#danmu').danmu("add_danmu", new_obj);
+            }
+        }
+        function startParty() {
+            //var music = "http://115.231.132.50/ws.cdn.baidupcs.com/file/ffcc3eb7c29bc772a1c121e3776b8bff?bkt=p-04c60606e07b2a126599315a88020fb0&xcode=da5189d9121c9a64b8304730d633556fafe19449914538f40047804bae6a1ada&fid=2486254204-250528-409927460&time=1448083954&sign=FDTAXGERLBH-DCb740ccc5511e5e8fedcff06b081203-PwLOyW8T6eCPausucwUZE9%2BdaAE%3D&to=lc&fm=Nan,B,T,t&sta_dx=3&sta_cs=75&sta_ft=mp3&sta_ct=7&fm2=Nanjing,B,T,t&newver=1&newfm=1&secfm=1&flow_ver=3&pkey=1400ffcc3eb7c29bc772a1c121e3776b8bff8e5efc7d00000029ea1b&sl=71761998&expires=8h&rt=sh&r=880964607&mlogid=7527562288206408387&vuk=4110495446&vbdid=2149114899&fin=ACfun%E5%85%A5%E7%AB%99%E6%AD%8C4%E4%BA%BA%E5%90%88%E5%94%B1%E7%89%88.mp3&fn=ACfun%E5%85%A5%E7%AB%99%E6%AD%8C4%E4%BA%BA%E5%90%88%E5%94%B1%E7%89%88.mp3&slt=pm&uta=0&rtype=1&iv=0&isw=0&dp-logid=7527562288206408387&dp-callid=0.1.1&wshc_tag=0&wsts_tag=565001f3&wsid_tag=6557dba5&wsiphost=ipdbm";
+            //var oAudio = document.getElementById('myaudio');
+            //oAudio.src = music;
+            //oAudio.loop = "loop";
+            //oAudio.play();
+            sendTest();
+            $('#danmu').danmu('danmu_resume');
+            setInterval(getRemote,20000);
+            var m = 10; //随机显示图片的总数量
+            var n = Math.floor(Math.random() * m + 1)
+            var imgurl = "img/back" + n + ".jpg";
+            $("#img").attr("src", imgurl);
+            $('#danmu').danmu('danmu_resume');
+        }
+        function getRemote()
+        {
+            var m = 3; //随机显示图片的总数量
+            var n = Math.floor(Math.random() * m )
+            var obj = eval(data[n][0]);
+            //var obj = eval(http://danmu.aixifan.com/V2/646446?pageSize=500&pageNo=1);
+            var time = $('#danmu').data("nowtime") ;
+            var color = 'black';
+            var position = 0;
+            var size = '1';
+            for (i = 0; i < obj.length; i++) {
+                currtime = time + i * 10;
+                var text_obj = '{ "text":"' + obj[i].m + '","color":"' + color + '","size":"' + size + '","position":"' + position + '","time":' + currtime + '}';
+
+                var new_obj = eval('(' + text_obj + ')');
+                $('#danmu').danmu("add_danmu", new_obj);
+            }
+        }
+        function sendTest() {
+           
+            var color = 'white';
+            var position = 0;
+            var time = $('#danmu').data("nowtime") + 3;
+            var size = '1';
+            for (i = 0; i < 100; i++) {
+                currtime = time + i * 10;
+                var text_obj = '{ "text":"' + "你看看你上当的样子，真是好笑,蛤蛤蛤~~~" + '","color":"' + color + '","size":"' + size + '","position":"' + position + '","time":' + currtime + '}';
+                var new_obj = eval('(' + text_obj + ')');
+                $('#danmu').danmu("add_danmu", new_obj);
+            }
+        }
+        $(startParty());
+    </script>
+</body>
+</html>

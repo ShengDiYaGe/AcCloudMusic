@@ -1,0 +1,259 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DESKTOP-UTKDAI9</Machine>
+    <WindowsUser>techm</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>011f2160-ec0e-42ae-a7c7-64aa19331d42</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\techm\Documents\Visual Studio 2015\Projects\ACMusic\ACCloudMusic\bld\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\techm\Documents\Visual Studio 2015\Projects\ACMusic\ACCloudMusic\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\techm\Documents\Visual Studio 2015\Projects\ACMusic\ACCloudMusic\css\ui-dark.css">
+      <PackagePath>css\ui-dark.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\techm\Documents\Visual Studio 2015\Projects\ACMusic\ACCloudMusic\css\default.css">
+      <PackagePath>css\default.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\techm\Documents\Visual Studio 2015\Projects\ACMusic\ACCloudMusic\pages\home\home.css">
+      <PackagePath>pages\home\home.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\techm\Documents\Visual Studio 2015\Projects\ACMusic\ACCloudMusic\WinJS\css\ui-dark.css">
+      <PackagePath>WinJS\css\ui-dark.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\techm\Documents\Visual Studio 2015\Projects\ACMusic\ACCloudMusic\WinJS\css\ui-light.css">
+      <PackagePath>WinJS\css\ui-light.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\techm\Documents\Visual Studio 2015\Projects\ACMusic\ACCloudMusic\default.html">
+      <PackagePath>default.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\techm\Documents\Visual Studio 2015\Projects\ACMusic\ACCloudMusic\images\BadgeLogo.scale-100.png">
+      <PackagePath>images\BadgeLogo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\techm\Documents\Visual Studio 2015\Projects\ACMusic\ACCloudMusic\images\BadgeLogo.scale-140.png">
+      <PackagePath>images\BadgeLogo.scale-140.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\techm\Documents\Visual Studio 2015\Projects\ACMusic\ACCloudMusic\images\BadgeLogo.scale-180.png">
+      <PackagePath>images\BadgeLogo.scale-180.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\techm\Documents\Visual Studio 2015\Projects\ACMusic\ACCloudMusic\images\LockScreenLogo.scale-200.png">
+      <PackagePath>images\LockScreenLogo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\techm\Documents\Visual Studio 2015\Projects\ACMusic\ACCloudMusic\images\logo.scale-100.png">
+      <PackagePath>images\logo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\techm\Documents\Visual Studio 2015\Projects\ACMusic\ACCloudMusic\images\logo.scale-140.png">
+      <PackagePath>images\logo.scale-140.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\techm\Documents\Visual Studio 2015\Projects\ACMusic\ACCloudMusic\images\logo.scale-180.png">
+      <PackagePath>images\logo.scale-180.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\techm\Documents\Visual Studio 2015\Projects\ACMusic\ACCloudMusic\images\logo.scale-80.png">
+      <PackagePath>images\logo.scale-80.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\techm\Documents\Visual Studio 2015\Projects\ACMusic\ACCloudMusic\images\smalllogo.scale-100.png">
+      <PackagePath>images\smalllogo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\techm\Documents\Visual Studio 2015\Projects\ACMusic\ACCloudMusic\images\smalllogo.scale-140.png">
+      <PackagePath>images\smalllogo.scale-140.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\techm\Documents\Visual Studio 2015\Projects\ACMusic\ACCloudMusic\images\smalllogo.scale-180.png">
+      <PackagePath>images\smalllogo.scale-180.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\techm\Documents\Visual Studio 2015\Projects\ACMusic\ACCloudMusic\images\smalllogo.scale-80.png">
+      <PackagePath>images\smalllogo.scale-80.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\techm\Documents\Visual Studio 2015\Projects\ACMusic\ACCloudMusic\images\smalllogo.targetsize-16.png">
+      <PackagePath>images\smalllogo.targetsize-16.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\techm\Documents\Visual Studio 2015\Projects\ACMusic\ACCloudMusic\images\smalllogo.targetsize-256.png">
+      <PackagePath>images\smalllogo.targetsize-256.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\techm\Documents\Visual Studio 2015\Projects\ACMusic\ACCloudMusic\images\smalllogo.targetsize-32.png">
+      <PackagePath>images\smalllogo.targetsize-32.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\techm\Documents\Visual Studio 2015\Projects\ACMusic\ACCloudMusic\images\smalllogo.targetsize-48.png">
+      <PackagePath>images\smalllogo.targetsize-48.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\techm\Documents\Visual Studio 2015\Projects\ACMusic\ACCloudMusic\images\splashscreen.scale-100.png">
+      <PackagePath>images\splashscreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\techm\Documents\Visual Studio 2015\Projects\ACMusic\ACCloudMusic\images\SplashScreen.scale-200.png">
+      <PackagePath>images\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\techm\Documents\Visual Studio 2015\Projects\ACMusic\ACCloudMusic\images\Square150x150Logo.scale-200.png">
+      <PackagePath>images\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\techm\Documents\Visual Studio 2015\Projects\ACMusic\ACCloudMusic\images\Square310x310Logo.scale-100.png">
+      <PackagePath>images\Square310x310Logo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\techm\Documents\Visual Studio 2015\Projects\ACMusic\ACCloudMusic\images\Square310x310Logo.scale-140.png">
+      <PackagePath>images\Square310x310Logo.scale-140.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\techm\Documents\Visual Studio 2015\Projects\ACMusic\ACCloudMusic\images\Square310x310Logo.scale-180.png">
+      <PackagePath>images\Square310x310Logo.scale-180.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\techm\Documents\Visual Studio 2015\Projects\ACMusic\ACCloudMusic\images\Square310x310Logo.scale-80.png">
+      <PackagePath>images\Square310x310Logo.scale-80.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\techm\Documents\Visual Studio 2015\Projects\ACMusic\ACCloudMusic\images\Square44x44Logo.scale-200.png">
+      <PackagePath>images\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\techm\Documents\Visual Studio 2015\Projects\ACMusic\ACCloudMusic\images\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>images\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\techm\Documents\Visual Studio 2015\Projects\ACMusic\ACCloudMusic\images\Square70x70Logo.scale-100.png">
+      <PackagePath>images\Square70x70Logo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\techm\Documents\Visual Studio 2015\Projects\ACMusic\ACCloudMusic\images\Square70x70Logo.scale-140.png">
+      <PackagePath>images\Square70x70Logo.scale-140.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\techm\Documents\Visual Studio 2015\Projects\ACMusic\ACCloudMusic\images\Square70x70Logo.scale-180.png">
+      <PackagePath>images\Square70x70Logo.scale-180.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\techm\Documents\Visual Studio 2015\Projects\ACMusic\ACCloudMusic\images\Square70x70Logo.scale-80.png">
+      <PackagePath>images\Square70x70Logo.scale-80.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\techm\Documents\Visual Studio 2015\Projects\ACMusic\ACCloudMusic\images\storelogo.scale-100.png">
+      <PackagePath>images\storelogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\techm\Documents\Visual Studio 2015\Projects\ACMusic\ACCloudMusic\images\storelogo.scale-140.png">
+      <PackagePath>images\storelogo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\techm\Documents\Visual Studio 2015\Projects\ACMusic\ACCloudMusic\images\storelogo.scale-180.png">
+      <PackagePath>images\storelogo.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\techm\Documents\Visual Studio 2015\Projects\ACMusic\ACCloudMusic\images\Wide310x150Logo.scale-100.png">
+      <PackagePath>images\Wide310x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\techm\Documents\Visual Studio 2015\Projects\ACMusic\ACCloudMusic\images\Wide310x150Logo.scale-140.png">
+      <PackagePath>images\Wide310x150Logo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\techm\Documents\Visual Studio 2015\Projects\ACMusic\ACCloudMusic\images\Wide310x150Logo.scale-180.png">
+      <PackagePath>images\Wide310x150Logo.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\techm\Documents\Visual Studio 2015\Projects\ACMusic\ACCloudMusic\images\Wide310x150Logo.scale-200.png">
+      <PackagePath>images\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\techm\Documents\Visual Studio 2015\Projects\ACMusic\ACCloudMusic\images\Wide310x150Logo.scale-80.png">
+      <PackagePath>images\Wide310x150Logo.scale-80.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\techm\Documents\Visual Studio 2015\Projects\ACMusic\ACCloudMusic\img\logo.png">
+      <PackagePath>img\logo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\techm\Documents\Visual Studio 2015\Projects\ACMusic\ACCloudMusic\img\back.jpg">
+      <PackagePath>img\back.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\techm\Documents\Visual Studio 2015\Projects\ACMusic\ACCloudMusic\img\back1.jpg">
+      <PackagePath>img\back1.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\techm\Documents\Visual Studio 2015\Projects\ACMusic\ACCloudMusic\img\back10.jpg">
+      <PackagePath>img\back10.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\techm\Documents\Visual Studio 2015\Projects\ACMusic\ACCloudMusic\img\back2.jpg">
+      <PackagePath>img\back2.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\techm\Documents\Visual Studio 2015\Projects\ACMusic\ACCloudMusic\img\back3.jpg">
+      <PackagePath>img\back3.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\techm\Documents\Visual Studio 2015\Projects\ACMusic\ACCloudMusic\img\back4.jpg">
+      <PackagePath>img\back4.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\techm\Documents\Visual Studio 2015\Projects\ACMusic\ACCloudMusic\img\back5.jpg">
+      <PackagePath>img\back5.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\techm\Documents\Visual Studio 2015\Projects\ACMusic\ACCloudMusic\img\back6.jpg">
+      <PackagePath>img\back6.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\techm\Documents\Visual Studio 2015\Projects\ACMusic\ACCloudMusic\img\back7.jpg">
+      <PackagePath>img\back7.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\techm\Documents\Visual Studio 2015\Projects\ACMusic\ACCloudMusic\img\back8.jpg">
+      <PackagePath>img\back8.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\techm\Documents\Visual Studio 2015\Projects\ACMusic\ACCloudMusic\img\back9.jpg">
+      <PackagePath>img\back9.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\techm\Documents\Visual Studio 2015\Projects\ACMusic\ACCloudMusic\img\background.jpg">
+      <PackagePath>img\background.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\techm\Documents\Visual Studio 2015\Projects\ACMusic\ACCloudMusic\img\logowide.jpg">
+      <PackagePath>img\logowide.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\techm\Documents\Visual Studio 2015\Projects\ACMusic\ACCloudMusic\img\splash.jpg">
+      <PackagePath>img\splash.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\techm\Documents\Visual Studio 2015\Projects\ACMusic\ACCloudMusic\img\splash2.jpg">
+      <PackagePath>img\splash2.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\techm\Documents\Visual Studio 2015\Projects\ACMusic\ACCloudMusic\img\back7.gif">
+      <PackagePath>img\back7.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\techm\Documents\Visual Studio 2015\Projects\ACMusic\ACCloudMusic\js\base.js">
+      <PackagePath>js\base.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\techm\Documents\Visual Studio 2015\Projects\ACMusic\ACCloudMusic\js\data0.js">
+      <PackagePath>js\data0.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\techm\Documents\Visual Studio 2015\Projects\ACMusic\ACCloudMusic\js\data1.js">
+      <PackagePath>js\data1.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\techm\Documents\Visual Studio 2015\Projects\ACMusic\ACCloudMusic\js\data2.js">
+      <PackagePath>js\data2.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\techm\Documents\Visual Studio 2015\Projects\ACMusic\ACCloudMusic\js\data3.js">
+      <PackagePath>js\data3.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\techm\Documents\Visual Studio 2015\Projects\ACMusic\ACCloudMusic\js\default.js">
+      <PackagePath>js\default.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\techm\Documents\Visual Studio 2015\Projects\ACMusic\ACCloudMusic\js\jquery-1.11.1.min.js">
+      <PackagePath>js\jquery-1.11.1.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\techm\Documents\Visual Studio 2015\Projects\ACMusic\ACCloudMusic\js\jquery.danmu.js">
+      <PackagePath>js\jquery.danmu.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\techm\Documents\Visual Studio 2015\Projects\ACMusic\ACCloudMusic\js\ui.js">
+      <PackagePath>js\ui.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\techm\Documents\Visual Studio 2015\Projects\ACMusic\ACCloudMusic\WinJS\js\en-US\ui.strings.js">
+      <PackagePath>WinJS\js\en-US\ui.strings.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\techm\Documents\Visual Studio 2015\Projects\ACMusic\ACCloudMusic\WinJS\js\base.js">
+      <PackagePath>WinJS\js\base.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\techm\Documents\Visual Studio 2015\Projects\ACMusic\ACCloudMusic\WinJS\js\ui.js">
+      <PackagePath>WinJS\js\ui.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\techm\Documents\Visual Studio 2015\Projects\ACMusic\ACCloudMusic\WinJS\fonts\Symbols.ttf">
+      <PackagePath>WinJS\fonts\Symbols.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\techm\Documents\Visual Studio 2015\Projects\ACMusic\ACCloudMusic\bin\Debug\ReverseMap\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

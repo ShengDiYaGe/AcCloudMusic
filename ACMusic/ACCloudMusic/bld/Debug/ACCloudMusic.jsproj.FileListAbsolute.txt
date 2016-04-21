@@ -1,0 +1,16 @@
+C:\Users\techm\Documents\Visual Studio 2015\Projects\ACMusic\ACCloudMusic\bin\Debug\ReverseMap\resources.pri
+C:\Users\techm\Documents\Visual Studio 2015\Projects\ACMusic\ACCloudMusic\bin\Debug\AppxManifest.xml
+C:\Users\techm\Documents\Visual Studio 2015\Projects\ACMusic\ACCloudMusic\bin\Debug\ACCloudMusic.build.appxrecipe
+C:\Users\techm\Documents\Visual Studio 2015\Projects\ACMusic\ACCloudMusic\bld\Debug\ResourceHandlingTask.state
+C:\Users\techm\Documents\Visual Studio 2015\Projects\ACMusic\ACCloudMusic\bld\Debug\priconfig.xml
+C:\Users\techm\Documents\Visual Studio 2015\Projects\ACMusic\ACCloudMusic\bld\Debug\priconfig.xml.intermediate
+C:\Users\techm\Documents\Visual Studio 2015\Projects\ACMusic\ACCloudMusic\bld\Debug\layout.resfiles
+C:\Users\techm\Documents\Visual Studio 2015\Projects\ACMusic\ACCloudMusic\bld\Debug\layout.resfiles.intermediate
+C:\Users\techm\Documents\Visual Studio 2015\Projects\ACMusic\ACCloudMusic\bld\Debug\resources.resfiles
+C:\Users\techm\Documents\Visual Studio 2015\Projects\ACMusic\ACCloudMusic\bld\Debug\resources.resfiles.intermediate
+C:\Users\techm\Documents\Visual Studio 2015\Projects\ACMusic\ACCloudMusic\bld\Debug\pri.resfiles
+C:\Users\techm\Documents\Visual Studio 2015\Projects\ACMusic\ACCloudMusic\bld\Debug\pri.resfiles.intermediate
+C:\Users\techm\Documents\Visual Studio 2015\Projects\ACMusic\ACCloudMusic\bld\Debug\qualifiers.txt
+C:\Users\techm\Documents\Visual Studio 2015\Projects\ACMusic\ACCloudMusic\bld\Debug\qualifiers.txt.intermediate
+C:\Users\techm\Documents\Visual Studio 2015\Projects\ACMusic\ACCloudMusic\bld\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\techm\Documents\Visual Studio 2015\Projects\ACMusic\ACCloudMusic\bld\Debug\ProjectArchitectures.txt

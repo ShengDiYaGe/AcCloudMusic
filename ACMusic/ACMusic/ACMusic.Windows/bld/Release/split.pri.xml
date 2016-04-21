@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PriInfo>
+	<ResourceMap name="43668.421441A7A52DF" version="1.0" primary="true">
+		<Qualifiers>
+			<Scale>80, 100</Scale>
+			<TargetSize>48, 32, 256, 16</TargetSize>
+		</Qualifiers>
+		<ResourceMapSubtree name="Files">
+			<NamedResource name="default.html" uri="ms-resource://43668.421441A7A52DF/Files/default.html">
+				<Candidate type="Path">
+					<Value>default.html</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="test.html" uri="ms-resource://43668.421441A7A52DF/Files/test.html">
+				<Candidate type="Path">
+					<Value>test.html</Value>
+				</Candidate>
+			</NamedResource>
+			<ResourceMapSubtree name="css">
+				<NamedResource name="default.css" uri="ms-resource://43668.421441A7A52DF/Files/css/default.css">
+					<Candidate type="Path">
+						<Value>css\default.css</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="images">
+				<NamedResource name="BadgeLogo.png" uri="ms-resource://43668.421441A7A52DF/Files/images/BadgeLogo.png">
+					<Candidate qualifiers="Scale-100" isDefault="true" type="Path">
+						<Value>images\BadgeLogo.scale-100.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="logo.png" uri="ms-resource://43668.421441A7A52DF/Files/images/logo.png">
+					<Candidate qualifiers="Scale-80" isDefault="true" type="Path">
+						<Value>images\logo.scale-80.png</Value>
+					</Candidate>
+					<Candidate qualifiers="Scale-100" isDefault="true" type="Path">
+						<Value>images\logo.scale-100.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="smalllogo.png" uri="ms-resource://43668.421441A7A52DF/Files/images/smalllogo.png">
+					<Candidate qualifiers="TargetSize-48" isDefault="true" type="Path">
+						<Value>images\smalllogo.targetsize-48.png</Value>
+					</Candidate>
+					<Candidate qualifiers="TargetSize-32" isDefault="true" type="Path">
+						<Value>images\smalllogo.targetsize-32.png</Value>
+					</Candidate>
+					<Candidate qualifiers="TargetSize-256" isDefault="true" type="Path">
+						<Value>images\smalllogo.targetsize-256.png</Value>
+					</Candidate>
+					<Candidate qualifiers="TargetSize-16" isDefault="true" type="Path">
+						<Value>images\smalllogo.targetsize-16.png</Value>
+					</Candidate>
+					<Candidate qualifiers="Scale-80" isDefault="true" type="Path">
+						<Value>images\smalllogo.scale-80.png</Value>
+					</Candidate>
+					<Candidate qualifiers="Scale-100" isDefault="true" type="Path">
+						<Value>images\smalllogo.scale-100.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="splashscreen.png" uri="ms-resource://43668.421441A7A52DF/Files/images/splashscreen.png">
+					<Candidate qualifiers="Scale-100" isDefault="true" type="Path">
+						<Value>images\splashscreen.scale-100.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Square310x310Logo.png" uri="ms-resource://43668.421441A7A52DF/Files/images/Square310x310Logo.png">
+					<Candidate qualifiers="Scale-80" isDefault="true" type="Path">
+						<Value>images\Square310x310Logo.scale-80.png</Value>
+					</Candidate>
+					<Candidate qualifiers="Scale-100" isDefault="true" type="Path">
+						<Value>images\Square310x310Logo.scale-100.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Square70x70Logo.png" uri="ms-resource://43668.421441A7A52DF/Files/images/Square70x70Logo.png">
+					<Candidate qualifiers="Scale-80" isDefault="true" type="Path">
+						<Value>images\Square70x70Logo.scale-80.png</Value>
+					</Candidate>
+					<Candidate qualifiers="Scale-100" isDefault="true" type="Path">
+						<Value>images\Square70x70Logo.scale-100.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="storelogo.png" uri="ms-resource://43668.421441A7A52DF/Files/images/storelogo.png">
+					<Candidate qualifiers="Scale-100" isDefault="true" type="Path">
+						<Value>images\storelogo.scale-100.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Wide310x150Logo.png" uri="ms-resource://43668.421441A7A52DF/Files/images/Wide310x150Logo.png">
+					<Candidate qualifiers="Scale-80" isDefault="true" type="Path">
+						<Value>images\Wide310x150Logo.scale-80.png</Value>
+					</Candidate>
+					<Candidate qualifiers="Scale-100" isDefault="true" type="Path">
+						<Value>images\Wide310x150Logo.scale-100.png</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="img">
+				<NamedResource name="back.jpg" uri="ms-resource://43668.421441A7A52DF/Files/img/back.jpg">
+					<Candidate type="Path">
+						<Value>img\back.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="back1.jpg" uri="ms-resource://43668.421441A7A52DF/Files/img/back1.jpg">
+					<Candidate type="Path">
+						<Value>img\back1.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="back10.jpg" uri="ms-resource://43668.421441A7A52DF/Files/img/back10.jpg">
+					<Candidate type="Path">
+						<Value>img\back10.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="back2.jpg" uri="ms-resource://43668.421441A7A52DF/Files/img/back2.jpg">
+					<Candidate type="Path">
+						<Value>img\back2.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="back3.jpg" uri="ms-resource://43668.421441A7A52DF/Files/img/back3.jpg">
+					<Candidate type="Path">
+						<Value>img\back3.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="back4.jpg" uri="ms-resource://43668.421441A7A52DF/Files/img/back4.jpg">
+					<Candidate type="Path">
+						<Value>img\back4.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="back5.jpg" uri="ms-resource://43668.421441A7A52DF/Files/img/back5.jpg">
+					<Candidate type="Path">
+						<Value>img\back5.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="back6.jpg" uri="ms-resource://43668.421441A7A52DF/Files/img/back6.jpg">
+					<Candidate type="Path">
+						<Value>img\back6.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="back7.gif" uri="ms-resource://43668.421441A7A52DF/Files/img/back7.gif">
+					<Candidate type="Path">
+						<Value>img\back7.gif</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="back7.jpg" uri="ms-resource://43668.421441A7A52DF/Files/img/back7.jpg">
+					<Candidate type="Path">
+						<Value>img\back7.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="back8.jpg" uri="ms-resource://43668.421441A7A52DF/Files/img/back8.jpg">
+					<Candidate type="Path">
+						<Value>img\back8.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="back9.jpg" uri="ms-resource://43668.421441A7A52DF/Files/img/back9.jpg">
+					<Candidate type="Path">
+						<Value>img\back9.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="background.jpg" uri="ms-resource://43668.421441A7A52DF/Files/img/background.jpg">
+					<Candidate type="Path">
+						<Value>img\background.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="logo.png" uri="ms-resource://43668.421441A7A52DF/Files/img/logo.png">
+					<Candidate type="Path">
+						<Value>img\logo.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="logowide.jpg" uri="ms-resource://43668.421441A7A52DF/Files/img/logowide.jpg">
+					<Candidate type="Path">
+						<Value>img\logowide.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="splash.jpg" uri="ms-resource://43668.421441A7A52DF/Files/img/splash.jpg">
+					<Candidate type="Path">
+						<Value>img\splash.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="splash2.jpg" uri="ms-resource://43668.421441A7A52DF/Files/img/splash2.jpg">
+					<Candidate type="Path">
+						<Value>img\splash2.jpg</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="js">
+				<NamedResource name="data0.js" uri="ms-resource://43668.421441A7A52DF/Files/js/data0.js">
+					<Candidate type="Path">
+						<Value>js\data0.js</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="data1.js" uri="ms-resource://43668.421441A7A52DF/Files/js/data1.js">
+					<Candidate type="Path">
+						<Value>js\data1.js</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="data2.js" uri="ms-resource://43668.421441A7A52DF/Files/js/data2.js">
+					<Candidate type="Path">
+						<Value>js\data2.js</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="data3.js" uri="ms-resource://43668.421441A7A52DF/Files/js/data3.js">
+					<Candidate type="Path">
+						<Value>js\data3.js</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="default.js" uri="ms-resource://43668.421441A7A52DF/Files/js/default.js">
+					<Candidate type="Path">
+						<Value>js\default.js</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="jquery-1.11.1.min.js" uri="ms-resource://43668.421441A7A52DF/Files/js/jquery-1.11.1.min.js">
+					<Candidate type="Path">
+						<Value>js\jquery-1.11.1.min.js</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="jquery.danmu.js" uri="ms-resource://43668.421441A7A52DF/Files/js/jquery.danmu.js">
+					<Candidate type="Path">
+						<Value>js\jquery.danmu.js</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="navigator.js" uri="ms-resource://43668.421441A7A52DF/Files/js/navigator.js">
+					<Candidate type="Path">
+						<Value>js\navigator.js</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="pages">
+				<ResourceMapSubtree name="home">
+					<NamedResource name="home.css" uri="ms-resource://43668.421441A7A52DF/Files/pages/home/home.css">
+						<Candidate type="Path">
+							<Value>pages\home\home.css</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="home.html" uri="ms-resource://43668.421441A7A52DF/Files/pages/home/home.html">
+						<Candidate type="Path">
+							<Value>pages\home\home.html</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="home.js" uri="ms-resource://43668.421441A7A52DF/Files/pages/home/home.js">
+						<Candidate type="Path">
+							<Value>pages\home\home.js</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+	</ResourceMap>
+</PriInfo>
