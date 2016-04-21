@@ -1,0 +1,37 @@
+<tile>
+  <visual branding="name">
+    <binding template="TileMedium">
+      <group>
+        <subgroup hint-weight="100">
+          <text hint-maxLines="1" hint-style="title">古文经典-</text>
+          <text hint-maxLines="5" hint-style="subheader">口技</text>
+        </subgroup>
+      </group>
+      <group>
+        <subgroup hint-weight="100" />
+      </group>
+    </binding>
+    <binding template="TileWide">
+      <group>
+        <subgroup hint-weight="100">
+          <text hint-maxLines="1" hint-style="title">古文经典-</text>
+          <text hint-maxLines="5" hint-style="subheader">口技</text>
+        </subgroup>
+      </group>
+      <group>
+        <subgroup hint-weight="100" />
+      </group>
+    </binding>
+    <binding template="TileLarge">
+      <group>
+        <subgroup hint-weight="100">
+          <text hint-maxLines="1" hint-style="title">古文经典-</text>
+          <text hint-maxLines="5" hint-style="subheader">口技</text>
+        </subgroup>
+      </group>
+      <group>
+        <subgroup hint-weight="100" />
+      </group>
+    </binding>
+  </visual>
+</tile>

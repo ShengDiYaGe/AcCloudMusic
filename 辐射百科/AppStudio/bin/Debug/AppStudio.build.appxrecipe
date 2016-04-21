@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DESKTOP-UTKDAI9</Machine>
+    <WindowsUser>techm</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>1eb8e9fb-8a39-42bc-86dc-e21c00da9e71</PackageIdentityName>
+    <IntermediateOutputPath>C:\PROJECT\辐射百科\AppStudio\bld\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\PROJECT\辐射百科\AppStudio\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\PROJECT\辐射百科\AppStudio\msapp-error.css">
+      <PackagePath>msapp-error.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\PROJECT\辐射百科\AppStudio\msapp-error.html">
+      <PackagePath>msapp-error.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\PROJECT\辐射百科\AppStudio\msapp-error.js">
+      <PackagePath>msapp-error.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\PROJECT\辐射百科\AppStudio\images\info-big-white.png">
+      <PackagePath>images\info-big-white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\PROJECT\辐射百科\AppStudio\images\SplashScreen.scale-100.png">
+      <PackagePath>images\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\PROJECT\辐射百科\AppStudio\images\Square150x150Logo.scale-100.png">
+      <PackagePath>images\Square150x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\PROJECT\辐射百科\AppStudio\images\Square310x310Logo.scale-100.png">
+      <PackagePath>images\Square310x310Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\PROJECT\辐射百科\AppStudio\images\Square44x44Logo.scale-100.png">
+      <PackagePath>images\Square44x44Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\PROJECT\辐射百科\AppStudio\images\StoreLogo.scale-100.png">
+      <PackagePath>images\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\PROJECT\辐射百科\AppStudio\images\Wide310x150Logo.scale-100.png">
+      <PackagePath>images\Wide310x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\PROJECT\辐射百科\AppStudio\bin\Debug\ReverseMap\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

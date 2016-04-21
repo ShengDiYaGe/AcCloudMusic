@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Package
+  xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10"
+  xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest"
+  xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10"
+  xmlns:appstudio="http://schemas.microsoft.com/developer/appx/2015/appstudio" 
+  IgnorableNamespaces="uap mp appstudio">
+    		<Identity Name="43668.1605150196CC4" Publisher="CN=95A43D9E-8BE4-4E26-BE20-59AA2C890ED2" Version="1.0.2.0" />
+	    <mp:PhoneIdentity PhoneProductId="1eb8e9fb-8a39-42bc-86dc-e21c00da9e71" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
+    <Properties>
+        <DisplayName>辐射大百科</DisplayName>
+        <PublisherDisplayName>西方媒体</PublisherDisplayName>
+        <Logo>images\StoreLogo.png</Logo>
+    </Properties>
+    <Dependencies>
+        <TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.10240.0" MaxVersionTested="10.0.10240.0" />
+    </Dependencies>
+    <Resources>
+        <Resource Language="x-generate"/>
+    </Resources>
+    <Applications>
+        <Application Id="App" StartPage="http://fallout.wikia.com/wiki/Fallout_Wiki/?useskin=wikiamobile">
+            <uap:VisualElements DisplayName="辐射大百科"
+              Description="辐射wiki的英文版，包含辐射系列游戏的全方位信息"
+              BackgroundColor="#f2f2f2"
+              Square150x150Logo="images\Square150x150Logo.png"
+              Square44x44Logo="images\Square44x44Logo.png">
+                <uap:SplashScreen Image="images\SplashScreen.png" BackgroundColor="#f2f2f2" />
+                <uap:DefaultTile Wide310x150Logo="images\Wide310x150Logo.png" Square310x310Logo="images\Square310x310Logo.png">
+                    <uap:ShowNameOnTiles>
+                        <uap:ShowOn Tile="wide310x150Logo"/>
+						<uap:ShowOn Tile="square310x310Logo" />
+                    </uap:ShowNameOnTiles>
+                </uap:DefaultTile>
+                <uap:InitialRotationPreference>
+                    <uap:Rotation Preference="landscape"/>
+                </uap:InitialRotationPreference>
+            </uap:VisualElements>
+            <uap:ApplicationContentUriRules>
+                <uap:Rule Type="include" Match="http://fallout.wikia.com/wiki/Fallout_Wiki/?useskin=wikiamobile" WindowsRuntimeAccess="all"/>
+            </uap:ApplicationContentUriRules>
+        </Application>
+    </Applications>
+    <Capabilities>
+        <Capability Name="internetClient" />
+    </Capabilities>
+    <appstudio:Metadata>
+        <appstudio:Item Name="appId" Value="43668.1605150196CC4" />
+        <appstudio:Item Name="model" Version="1.11" />
+        <appstudio:Item Name="formula" Value="Hwa" Version="1.11.1110.1" />
+    </appstudio:Metadata>
+</Package>

@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>MEGATONTECH</Machine>
+    <WindowsUser>techme</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Debug|x86</SolutionConfiguration>
+    <PackageArchitecture>x86</PackageArchitecture>
+    <PackageIdentityName>fd261bf8-aeee-4505-af7b-4165ccfe1d62</PackageIdentityName>
+    <IntermediateOutputPath>C:\PROJECT\CommunistManifesto\App1\bld\x86\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\PROJECT\CommunistManifesto\App1\bin\x86\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\PROJECT\CommunistManifesto\App1\black_gradient.png">
+      <PackagePath>black_gradient.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\PROJECT\CommunistManifesto\App1\black_gradientr.png">
+      <PackagePath>black_gradientr.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\PROJECT\CommunistManifesto\App1\images\LockScreenLogo.scale-200.png">
+      <PackagePath>images\LockScreenLogo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\PROJECT\CommunistManifesto\App1\images\SplashScreen.scale-200.png">
+      <PackagePath>images\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\PROJECT\CommunistManifesto\App1\images\Square150x150Logo.scale-200.png">
+      <PackagePath>images\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\PROJECT\CommunistManifesto\App1\images\Square44x44Logo.scale-200.png">
+      <PackagePath>images\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\PROJECT\CommunistManifesto\App1\images\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>images\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\PROJECT\CommunistManifesto\App1\images\StoreLogo.png">
+      <PackagePath>images\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\PROJECT\CommunistManifesto\App1\images\Wide310x150Logo.scale-200.png">
+      <PackagePath>images\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\PROJECT\CommunistManifesto\App1\bookflipjs\bookflip.js">
+      <PackagePath>bookflipjs\bookflip.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\PROJECT\CommunistManifesto\App1\js\bookflip.js">
+      <PackagePath>js\bookflip.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\PROJECT\CommunistManifesto\App1\js\default.js">
+      <PackagePath>js\default.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\PROJECT\CommunistManifesto\App1\WinJS\js\en-US\ui.strings.js">
+      <PackagePath>WinJS\js\en-US\ui.strings.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\PROJECT\CommunistManifesto\App1\WinJS\js\base.js">
+      <PackagePath>WinJS\js\base.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\PROJECT\CommunistManifesto\App1\WinJS\js\ui.js">
+      <PackagePath>WinJS\js\ui.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\PROJECT\CommunistManifesto\App1\default.html">
+      <PackagePath>default.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\PROJECT\CommunistManifesto\App1\css\default.css">
+      <PackagePath>css\default.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\PROJECT\CommunistManifesto\App1\WinJS\css\ui-dark.css">
+      <PackagePath>WinJS\css\ui-dark.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\PROJECT\CommunistManifesto\App1\WinJS\css\ui-light.css">
+      <PackagePath>WinJS\css\ui-light.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\PROJECT\CommunistManifesto\App1\spongebob\opacity.gif">
+      <PackagePath>spongebob\opacity.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\PROJECT\CommunistManifesto\App1\spongebob\page0.jpg">
+      <PackagePath>spongebob\page0.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\PROJECT\CommunistManifesto\App1\spongebob\page1.jpg">
+      <PackagePath>spongebob\page1.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\PROJECT\CommunistManifesto\App1\spongebob\page10.jpg">
+      <PackagePath>spongebob\page10.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\PROJECT\CommunistManifesto\App1\spongebob\page11.jpg">
+      <PackagePath>spongebob\page11.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\PROJECT\CommunistManifesto\App1\spongebob\page12.jpg">
+      <PackagePath>spongebob\page12.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\PROJECT\CommunistManifesto\App1\spongebob\page13.jpg">
+      <PackagePath>spongebob\page13.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\PROJECT\CommunistManifesto\App1\spongebob\page14.jpg">
+      <PackagePath>spongebob\page14.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\PROJECT\CommunistManifesto\App1\spongebob\page15.jpg">
+      <PackagePath>spongebob\page15.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\PROJECT\CommunistManifesto\App1\spongebob\page16.jpg">
+      <PackagePath>spongebob\page16.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\PROJECT\CommunistManifesto\App1\spongebob\page17.jpg">
+      <PackagePath>spongebob\page17.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\PROJECT\CommunistManifesto\App1\spongebob\page18.jpg">
+      <PackagePath>spongebob\page18.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\PROJECT\CommunistManifesto\App1\spongebob\page19.jpg">
+      <PackagePath>spongebob\page19.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\PROJECT\CommunistManifesto\App1\spongebob\page2.jpg">
+      <PackagePath>spongebob\page2.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\PROJECT\CommunistManifesto\App1\spongebob\page20.jpg">
+      <PackagePath>spongebob\page20.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\PROJECT\CommunistManifesto\App1\spongebob\page21.jpg">
+      <PackagePath>spongebob\page21.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\PROJECT\CommunistManifesto\App1\spongebob\page22.jpg">
+      <PackagePath>spongebob\page22.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\PROJECT\CommunistManifesto\App1\spongebob\page23.jpg">
+      <PackagePath>spongebob\page23.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\PROJECT\CommunistManifesto\App1\spongebob\page24.jpg">
+      <PackagePath>spongebob\page24.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\PROJECT\CommunistManifesto\App1\spongebob\page25.jpg">
+      <PackagePath>spongebob\page25.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\PROJECT\CommunistManifesto\App1\spongebob\page26.jpg">
+      <PackagePath>spongebob\page26.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\PROJECT\CommunistManifesto\App1\spongebob\page27.jpg">
+      <PackagePath>spongebob\page27.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\PROJECT\CommunistManifesto\App1\spongebob\page28.jpg">
+      <PackagePath>spongebob\page28.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\PROJECT\CommunistManifesto\App1\spongebob\page29.jpg">
+      <PackagePath>spongebob\page29.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\PROJECT\CommunistManifesto\App1\spongebob\page3.jpg">
+      <PackagePath>spongebob\page3.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\PROJECT\CommunistManifesto\App1\spongebob\page30.jpg">
+      <PackagePath>spongebob\page30.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\PROJECT\CommunistManifesto\App1\spongebob\page31.jpg">
+      <PackagePath>spongebob\page31.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\PROJECT\CommunistManifesto\App1\spongebob\page32.jpg">
+      <PackagePath>spongebob\page32.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\PROJECT\CommunistManifesto\App1\spongebob\page33.jpg">
+      <PackagePath>spongebob\page33.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\PROJECT\CommunistManifesto\App1\spongebob\page34.jpg">
+      <PackagePath>spongebob\page34.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\PROJECT\CommunistManifesto\App1\spongebob\page35.jpg">
+      <PackagePath>spongebob\page35.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\PROJECT\CommunistManifesto\App1\spongebob\page36.jpg">
+      <PackagePath>spongebob\page36.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\PROJECT\CommunistManifesto\App1\spongebob\page37.jpg">
+      <PackagePath>spongebob\page37.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\PROJECT\CommunistManifesto\App1\spongebob\page38.jpg">
+      <PackagePath>spongebob\page38.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\PROJECT\CommunistManifesto\App1\spongebob\page39.jpg">
+      <PackagePath>spongebob\page39.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\PROJECT\CommunistManifesto\App1\spongebob\page4.jpg">
+      <PackagePath>spongebob\page4.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\PROJECT\CommunistManifesto\App1\spongebob\page40.jpg">
+      <PackagePath>spongebob\page40.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\PROJECT\CommunistManifesto\App1\spongebob\page41.jpg">
+      <PackagePath>spongebob\page41.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\PROJECT\CommunistManifesto\App1\spongebob\page42.jpg">
+      <PackagePath>spongebob\page42.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\PROJECT\CommunistManifesto\App1\spongebob\page43.jpg">
+      <PackagePath>spongebob\page43.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\PROJECT\CommunistManifesto\App1\spongebob\page44.jpg">
+      <PackagePath>spongebob\page44.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\PROJECT\CommunistManifesto\App1\spongebob\page45.jpg">
+      <PackagePath>spongebob\page45.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\PROJECT\CommunistManifesto\App1\spongebob\page46.jpg">
+      <PackagePath>spongebob\page46.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\PROJECT\CommunistManifesto\App1\spongebob\page5.jpg">
+      <PackagePath>spongebob\page5.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\PROJECT\CommunistManifesto\App1\spongebob\page6.jpg">
+      <PackagePath>spongebob\page6.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\PROJECT\CommunistManifesto\App1\spongebob\page7.jpg">
+      <PackagePath>spongebob\page7.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\PROJECT\CommunistManifesto\App1\spongebob\page8.jpg">
+      <PackagePath>spongebob\page8.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\PROJECT\CommunistManifesto\App1\spongebob\page9.jpg">
+      <PackagePath>spongebob\page9.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\PROJECT\CommunistManifesto\App1\WinJS\fonts\Symbols.ttf">
+      <PackagePath>WinJS\fonts\Symbols.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\PROJECT\CommunistManifesto\App1\bin\x86\Debug\ReverseMap\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

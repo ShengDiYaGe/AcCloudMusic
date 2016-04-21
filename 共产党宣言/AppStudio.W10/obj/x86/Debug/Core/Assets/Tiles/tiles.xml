@@ -1,0 +1,16 @@
+<tile>
+  <visual branding="logo" displayName="共产党宣言">
+    <binding template="TileMedium">
+      <image src="ms-appx:///Assets/DataImages/徽章.png" hint-removeMargin="true" hint-crop="circle" placement="background" />
+      <text hint-maxLines="5" hint-style="body">共产党宣言</text>
+    </binding>
+    <binding template="TileWide">
+      <image src="ms-appx:///Assets/DataImages/徽章.png" hint-removeMargin="true" hint-crop="circle" placement="background" />
+      <text hint-maxLines="5" hint-style="body">共产党宣言</text>
+    </binding>
+    <binding template="TileLarge">
+      <image src="ms-appx:///Assets/DataImages/徽章.png" hint-removeMargin="true" hint-crop="circle" placement="background" />
+      <text hint-maxLines="5" hint-style="body">共产党宣言</text>
+    </binding>
+  </visual>
+</tile>

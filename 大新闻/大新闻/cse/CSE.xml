@@ -1,0 +1,2601 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CSE</name>
+    </assembly>
+    <members>
+        <member name="T:CSE.Bit">
+            <summary>
+            Summary description for Bit.
+            </summary>
+        </member>
+        <member name="F:CSE.Bit.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:CSE.Bit.#ctor">
+            <summary>
+            Standard creator
+            </summary>
+        </member>
+        <member name="M:CSE.Bit.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:CSE.Bit.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="P:CSE.Bit.Value">
+            <summary>
+            Value of this bit
+            </summary>
+        </member>
+        <member name="M:CSE.Bit.OnPaint(System.Windows.Forms.PaintEventArgs)">
+            <summary>
+            Draw the control
+            </summary>
+            <param name="pe">events</param>
+        </member>
+        <member name="T:CSE.Byte">
+            <summary>
+            Summary description for Byte.
+            </summary>
+        </member>
+        <member name="F:CSE.Byte.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:CSE.Byte.#ctor">
+            <summary>
+            Standard creator
+            </summary>
+        </member>
+        <member name="M:CSE.Byte.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:CSE.Byte.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="P:CSE.Byte.Value">
+            <summary>
+            Sets or gets contained value
+            </summary>
+        </member>
+        <member name="T:CSE.frmIO">
+            <summary>
+            This form implements an IO system to allow IO simulation on Z80
+            </summary>
+        </member>
+        <member name="F:CSE.frmIO.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:CSE.frmIO.#ctor">
+            <summary>
+            Standard creator
+            </summary>
+        </member>
+        <member name="M:CSE.frmIO.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:CSE.frmIO.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:CSE.frmIO.ReadPort(System.UInt16)">
+            <summary>
+            Reads a single byte from a port
+            </summary>
+            <param name="Address">Port address</param>
+            <returns>The byte readed</returns>
+        </member>
+        <member name="M:CSE.frmIO.WritePort(System.UInt16,System.Byte)">
+            <summary>
+            Writes a single byte to a port
+            </summary>
+            <param name="Address">Port address</param>
+            <param name="Value">The byte readed</param>
+        </member>
+        <member name="T:CSE.Form1">
+            <summary>
+            Summary description for Form1.
+            </summary>
+        </member>
+        <member name="F:CSE.Form1.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:CSE.Form1.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:CSE.Form1.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:CSE.Form1.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:CSE.Form1.Main">
+            <summary>
+            The main entry point for the application.
+            </summary>
+        </member>
+        <member name="F:CSE.Form1.FlashCounter">
+            <summary>
+            Counter for flashing 2 times a second
+            </summary>
+        </member>
+        <member name="T:CSE.frmShowMemory">
+            <summary>
+            Summary description for frmDebug.
+            </summary>
+        </member>
+        <member name="F:CSE.frmShowMemory._Address">
+            <summary>
+            Address of displayed memory
+            </summary>
+        </member>
+        <member name="F:CSE.frmShowMemory._Memory">
+            <summary>
+            Z80 Memory to show
+            </summary>
+        </member>
+        <member name="F:CSE.frmShowMemory.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:CSE.frmShowMemory.#ctor">
+            <summary>
+            Do not use this
+            </summary>
+        </member>
+        <member name="M:CSE.frmShowMemory.#ctor(Z80.IMemory,System.UInt16)">
+            <summary>
+            Standard constructor.
+            A reference to memory will be saved for memory refreshes.
+            This class is then registered as a Memory Write Handler so on write the output is refreshed
+            </summary>
+            <param name="Memory">Z80 Memory</param>
+            <param name="Address">Address to show</param>
+        </member>
+        <member name="M:CSE.frmShowMemory.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:CSE.frmShowMemory.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:CSE.frmShowMemory.RefreshOutput">
+            <summary>
+            Refreshes output reading memory from previous address
+            </summary>
+        </member>
+        <member name="M:CSE.frmShowMemory.OnMemoryWrite(System.UInt16,System.Byte)">
+            <summary>
+            _Memory.OnMemoryWrite event handler
+            </summary>
+            <param name="Address">Address changed</param>
+            <param name="Value">Value</param>
+        </member>
+        <member name="T:CSE.frmShowMemoryDisassembly">
+            <summary>
+            Shows a disassembly of memory
+            </summary>
+        </member>
+        <member name="F:CSE.frmShowMemoryDisassembly._Address">
+            <summary>
+            Address of displayed memory
+            </summary>
+        </member>
+        <member name="F:CSE.frmShowMemoryDisassembly._Memory">
+            <summary>
+            Z80 Memory to show
+            </summary>
+        </member>
+        <member name="F:CSE.frmShowMemoryDisassembly._Disassembler">
+            <summary>
+            Z80 Disassembler
+            </summary>
+        </member>
+        <member name="F:CSE.frmShowMemoryDisassembly.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:CSE.frmShowMemoryDisassembly.#ctor">
+            <summary>
+            Do not use this
+            </summary>
+        </member>
+        <member name="M:CSE.frmShowMemoryDisassembly.#ctor(Z80.IMemory,System.UInt16)">
+            <summary>
+            Standard constructor.
+            A reference to memory will be saved for memory refreshes.
+            This class is *not* registered as a Memory Write Handler.
+            We hope that program is not going to be rewritten by code itself.
+            A new disassembler class is created
+            </summary>
+            <param name="Memory">Z80 Memory</param>
+            <param name="Address">Address to show</param>
+        </member>
+        <member name="M:CSE.frmShowMemoryDisassembly.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:CSE.frmShowMemoryDisassembly.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:CSE.frmShowMemoryDisassembly.RefreshOutput">
+            <summary>
+            Refreshes output reading memory. 0x80 statements will be written
+            </summary>
+        </member>
+        <member name="T:CSE.frmShowStatus">
+            <summary>
+            Summary description for frmShowStatus.
+            </summary>
+        </member>
+        <member name="M:CSE.frmShowStatus.#ctor">
+            <summary>
+            Standard class creator
+            </summary>
+        </member>
+        <member name="M:CSE.frmShowStatus.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:CSE.frmShowStatus.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="P:CSE.frmShowStatus.Status">
+            <summary>
+            Status (used during refresh)
+            </summary>
+        </member>
+        <member name="P:CSE.frmShowStatus.Memory">
+            <summary>
+            Memory (used during refresh)
+            </summary>
+        </member>
+        <member name="P:CSE.frmShowStatus.Z80">
+            <summary>
+            Processor. During set the event OnFetch is catched to perform automatic refresh
+            </summary>
+        </member>
+        <member name="M:CSE.frmShowStatus.RefreshOutput">
+            <summary>
+            Show Z80 Status. It should not be called because the state is refreshed on each fetch.
+            Class Z80 raise the OnFetch event and the OnFetch event calls this.
+            </summary>
+        </member>
+        <member name="M:CSE.frmShowStatus._Z80_OnFetch">
+            <summary>
+            Raised when a new instruction in performed
+            </summary>
+        </member>
+        <member name="T:CSE.frmTraceStatus">
+            <summary>
+            Summary description for frmTraceStatus.
+            </summary>
+        </member>
+        <member name="F:CSE.frmTraceStatus.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="F:CSE.frmTraceStatus._Disassembler">
+            <summary>
+            Class for Z80 disassembly
+            </summary>
+        </member>
+        <member name="F:CSE.frmTraceStatus._Z80">
+            <summary>
+            Z80 to trace status
+            </summary>
+        </member>
+        <member name="M:CSE.frmTraceStatus.#ctor">
+            <summary>
+            Standard form creator
+            </summary>
+        </member>
+        <member name="M:CSE.frmTraceStatus.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:CSE.frmTraceStatus.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="P:CSE.frmTraceStatus.Z80">
+            <summary>
+            Z80 to trace. Must be setted after creation before FormLoad
+            </summary>
+        </member>
+        <member name="T:CSE.LabelFlag">
+            <summary>
+            Summary description for LabelFlag.
+            </summary>
+        </member>
+        <member name="F:CSE.LabelFlag.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:CSE.LabelFlag.#ctor">
+            <summary>
+            Standard creator
+            </summary>
+        </member>
+        <member name="M:CSE.LabelFlag.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:CSE.LabelFlag.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="P:CSE.LabelFlag.Value">
+            <summary>
+            Value of Flag (F) register
+            </summary>
+        </member>
+        <member name="T:CSE.LabelNumber">
+            <summary>
+            A label that contain a number
+            </summary>
+        </member>
+        <member name="M:CSE.LabelNumber.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:CSE.LabelNumber.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="P:CSE.LabelNumber.Value">
+            <summary>
+            Value
+            </summary>
+        </member>
+        <member name="M:CSE.LabelNumber.ByteBinary(System.Byte)">
+            <summary>
+            Convert a single byte in binary
+            </summary>
+            <param name="b">The byte</param>
+            <returns>Binary rapresentation of b</returns>
+        </member>
+        <member name="P:CSE.LabelNumber.Digits">
+            <summary>
+            Number of digits to show (2 or 4)
+            </summary>
+        </member>
+        <member name="T:CSE.LabelRegister">
+            <summary>
+            Summary description for LabelRegister.
+            </summary>
+        </member>
+        <member name="F:CSE.LabelRegister.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:CSE.LabelRegister.#ctor">
+            <summary>
+            Standard initializer
+            </summary>
+        </member>
+        <member name="M:CSE.LabelRegister.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:CSE.LabelRegister.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="P:CSE.LabelRegister.Value">
+            <summary>
+            16 bits register value
+            </summary>
+        </member>
+        <member name="T:Spectrums.Common.Keyboard">
+            <summary>
+            Class for keyboard handling. It keeps status of pressed keys and
+            it can answer to input requests
+            </summary>
+        </member>
+        <member name="M:Spectrums.Common.Keyboard.ReadPort(System.UInt16,System.Byte@)">
+            <summary>
+            Decode an IO address (convert to a keyline) and return a keyboard state
+            </summary>
+            <param name="Address">Port address</param>
+            <param name="Value">Value</param>
+            <returns>True if the address is a KeyLine address (so the value is valid), False otherwise</returns>
+        </member>
+        <member name="M:Spectrums.Common.Keyboard.ParseKey(System.Boolean,System.Windows.Forms.KeyEventArgs)">
+            <summary>
+            Parse the key and set the state for input and output answers
+            </summary>
+            <param name="Down">True if the key has been pressed (KeyDown event), False if the key has been released (KeyUp event)</param>
+            <param name="e">The event arg passed to the event</param>
+        </member>
+        <member name="T:Spectrums.Common.Keyboard.KeyLine">
+            <summary>
+            A line of keys readed with a single input operation
+            </summary>
+        </member>
+        <member name="P:Spectrums.Common.Keyboard.KeyLine.Value">
+            <summary>
+            Gets or set the value of the key pattern
+            </summary>
+        </member>
+        <member name="M:Spectrums.Common.Keyboard.KeyLine.Set(System.Byte)">
+            <summary>
+            Set a bit
+            </summary>
+            <param name="Bit">Bit to set</param>
+        </member>
+        <member name="M:Spectrums.Common.Keyboard.KeyLine.Reset(System.Byte)">
+            <summary>
+            Reset a bit
+            </summary>
+            <param name="Bit">Bit to reset</param>
+        </member>
+        <member name="M:Spectrums.Common.Keyboard.KeyLine.Set(System.Byte,System.Boolean)">
+            <summary>
+            Sets or resets a bit
+            </summary>
+            <param name="Bit">Bit to change</param>
+            <param name="Value">True if the bit have to be set else false</param>
+        </member>
+        <member name="T:Spectrums.Common.Video">
+            <summary>
+            Summary description for Video.
+            </summary>
+        </member>
+        <member name="M:Spectrums.Common.Video.#ctor(Z80.IMemory)">
+            <summary>
+            Create a new video output based on memory specified
+            </summary>
+            <param name="Memory">Z80 Memory</param>
+        </member>
+        <member name="P:Spectrums.Common.Video.DefaultOutputBitmap">
+            <summary>
+            Bitmap where output will be flushed if no other bitmap is specified
+            </summary>
+        </member>
+        <member name="M:Spectrums.Common.Video.WriteFileSCR(System.String)">
+            <summary>
+            Write the video to a file
+            </summary>
+            <param name="FileName">File name</param>
+        </member>
+        <member name="M:Spectrums.Common.Video.ReadFileSCR(System.String)">
+            <summary>
+            Read the video from a file
+            </summary>
+            <param name="FileName">File name</param>
+        </member>
+        <member name="M:Spectrums.Common.Video.Refresh">
+            <summary>
+            Draw complete video from memory to default bitmap
+            </summary>
+        </member>
+        <member name="M:Spectrums.Common.Video.Flash">
+            <summary>
+            Redraw the screen inverting the ink and the paper color
+            </summary>
+        </member>
+        <member name="M:Spectrums.Common.Video.Refresh(System.Drawing.Bitmap)">
+            <summary>
+            Draw complete video from memory to specified bitmap
+            </summary>
+            <param name="Video">Bitmap</param>
+        </member>
+        <member name="M:Spectrums.Common.Video.DrawSingleByte(System.UInt16)">
+            <summary>
+            Draw a single byte of video memory to specified bitmap
+            </summary>
+            <param name="Address">The absolute address (0x4000 + relative address)</param>
+        </member>
+        <member name="M:Spectrums.Common.Video.DrawSingleByte(System.Drawing.Bitmap,System.UInt16)">
+            <summary>
+            Draw a single byte of video memory  to specified bitmap
+            </summary>
+            <param name="Video">Bitmap</param>
+            <param name="Address">The absolute address (0x4000 + relative address)</param>
+        </member>
+        <member name="M:Spectrums.Common.Video.DrawSingleByte(System.UInt16,System.Drawing.Color,System.Drawing.Color)">
+            <summary>
+            This version of DrawSingleByte can be used when the bgColor and the fgColor is well known
+            It can be used for blinking management and during incremental screen refresh.
+            For details see other versions
+            </summary>
+            <param name="Address">Absolute address of pixel</param>
+            <param name="fgColor">Foreground color (ink)</param>
+            <param name="bgColor">Background color (paper)</param>
+        </member>
+        <member name="M:Spectrums.Common.Video.Draw8Bytes(System.UInt16,System.Drawing.Color,System.Drawing.Color)">
+            <summary>
+            Draw 8 Bytes (8x8 pixels). It can be used when an attribute changes or during screen blink
+            </summary>
+            <param name="Address">Absolute address of the first pixel. The address of the other 7 pixels blocks are aa001aaaaaaaa aa010aaaaaaaa and so on.</param>
+            <param name="fgColor">Foreground color (ink)</param>
+            <param name="bgColor">Background color (paper)</param>
+        </member>
+        <member name="M:Spectrums.Common.Video.GetPixelAddressFromAttributeAddress(System.UInt16)">
+            <summary>
+            From the address of an attribute retrieve the address of the first 8 pixels associated with the attribute
+            The address returned is in the form aa000aaaaaaaa. The address of the other 7 pixels blocks are aa001aaaaaaaa
+            aa010aaaaaaaa and so on.
+            </summary>
+            <param name="AttributeAddress">Address of the attribute</param>
+            <returns>The address of the first 8 pixels</returns>
+        </member>
+        <member name="M:Spectrums.Common.Video.GetColorsFromPixelAddress(System.UInt16,System.Boolean,System.Drawing.Color@,System.Drawing.Color@)">
+            <summary>
+            From a memory address of an eight pixel set retrieve the atribute
+            </summary>
+            <param name="Address">The absolute address (0x4000 + relative address)</param>
+            <param name="FlashReversed">True if Spectrum is in the state to display flashing pixel in reverse</param>
+            <param name="Foreground">Foreground attribute</param>
+            <param name="Background">Background attribute</param>
+        </member>
+        <member name="M:Spectrums.Common.Video.GetColorsFromAttributeAddress(System.UInt16,System.Boolean,System.Drawing.Color@,System.Drawing.Color@)">
+            <summary>
+            Get ink and paper colors from attribute address
+            </summary>
+            <param name="Address">Address of attribute</param>
+            <param name="FlashReversed">True if Spectrum is in the state to display flashing pixel in reverse</param>
+            <param name="Foreground">Foreground attribute</param>
+            <param name="Background">Background attribute</param>
+        </member>
+        <member name="M:Spectrums.Common.Video.GetColorsFromAttribute(System.Byte,System.Boolean,System.Drawing.Color@,System.Drawing.Color@)">
+            <summary>
+            Get ink and paper colors from attribute
+            </summary>
+            <param name="Attribute">The attribute</param>
+            <param name="FlashReversed">True if Spectrum is in the state to display flashing pixel in reverse</param>
+            <param name="Foreground">Foreground attribute</param>
+            <param name="Background">Background attribute</param>
+        </member>
+        <member name="P:Spectrums.Common.Video.BorderControl">
+            <summary>
+            Gets or sets the control that's hosting the border
+            Video class will access to property backcolor of this
+            control when the border is set with an out statement.
+            </summary>
+        </member>
+        <member name="M:Spectrums.Common.Video.WritePort(System.UInt16,System.Byte)">
+            <summary>
+            IODevice (Interface Output Device) Implementation
+            </summary>
+            <param name="Port">Port to write to</param>
+            <param name="Value">Value to write</param>
+            <returns>True if the port is handled by the video</returns>
+        </member>
+        <member name="T:Spectrums.Spectrum48.IO48">
+            <summary>
+            Summary description for IO48.
+            </summary>
+        </member>
+        <member name="M:Spectrums.Spectrum48.IO48.#ctor">
+            <summary>
+            Create a new IO
+            </summary>
+        </member>
+        <member name="M:Spectrums.Spectrum48.IO48.ReadPort(System.UInt16)">
+            <summary>
+            Reads a single byte from a port
+            </summary>
+            <param name="Port">Port to read from</param>
+            <returns>The byte value</returns>
+        </member>
+        <member name="M:Spectrums.Spectrum48.IO48.WritePort(System.UInt16,System.Byte)">
+            <summary>
+            Writes a single byte to a port
+            </summary>
+            <param name="Port">Port to write to</param>
+            <param name="Value">The byte value</param>
+        </member>
+        <member name="P:Spectrums.Spectrum48.IO48.Keyboard">
+            <summary>
+            The keyboard to read from
+            </summary>
+        </member>
+        <member name="P:Spectrums.Spectrum48.IO48.Video">
+            <summary>
+            The video that's hosting the border
+            </summary>
+        </member>
+        <member name="P:Spectrums.Spectrum48.IO48.DefaultIO">
+            <summary>
+            Used if no one can handle the port request. It should be used for debug purpose only
+            </summary>
+        </member>
+        <member name="T:Spectrums.Spectrum48.Memory48">
+            <summary>
+            IMemory implementation for a 48k Speccy
+            </summary>
+        </member>
+        <member name="E:Spectrums.Spectrum48.Memory48.OnRead">
+            <summary>
+            Raised before read
+            </summary>
+        </member>
+        <member name="E:Spectrums.Spectrum48.Memory48.OnWrite">
+            <summary>
+            Raised before write
+            </summary>
+        </member>
+        <member name="M:Spectrums.Spectrum48.Memory48.#ctor">
+            <summary>
+            Initialize memory and load rom
+            </summary>
+        </member>
+        <member name="M:Spectrums.Spectrum48.Memory48.LoadROM">
+            <summary>
+            Load a ROM file from address 0x0000 to address 0x3FFF
+            </summary>
+        </member>
+        <member name="M:Spectrums.Spectrum48.Memory48.ReadByte(System.UInt16)">
+            <summary>
+            Reads a memory cell
+            </summary>
+            <param name="Address">Address to read</param>
+            <returns>The byte readed</returns>
+        </member>
+        <member name="M:Spectrums.Spectrum48.Memory48.WriteByte(System.UInt16,System.Byte)">
+            <summary>
+            Writes a memory cell
+            </summary>
+            <param name="Address">Address to write</param>
+            <param name="Value">The byte to write</param>
+        </member>
+        <member name="M:Spectrums.Spectrum48.Memory48.ReadWord(System.UInt16)">
+            <summary>
+            Read a word from memory
+            </summary>
+            <param name="Address">Address to read</param>
+            <returns>the word readed</returns>
+        </member>
+        <member name="M:Spectrums.Spectrum48.Memory48.WriteWord(System.UInt16,System.UInt16)">
+            <summary>
+            Write a word to memory
+            </summary>
+            <param name="Address">Address</param>
+            <param name="Value">The word to write</param>
+        </member>
+        <member name="P:Spectrums.Spectrum48.Memory48.Size">
+            <summary>
+            Memory size
+            </summary>
+        </member>
+        <member name="P:Spectrums.Spectrum48.Memory48.Item(System.Int32)">
+            <summary>
+            Access to whole memory
+            </summary>
+        </member>
+        <member name="P:Spectrums.Spectrum48.Memory48.Raw">
+            <summary>
+            Memory as byte array
+            </summary>
+        </member>
+        <member name="T:Spectrums.Spectrum48.Spectrum48">
+            <summary>
+            Emulation of a Spectrum 48k
+            </summary>
+        </member>
+        <member name="T:Z80.IIO">
+            <summary>
+            Basic interface for IO access
+            </summary>
+        </member>
+        <member name="M:Z80.IIO.ReadPort(System.UInt16)">
+            <summary>
+            Read a single byte from a port
+            </summary>
+            <param name="Port">Port to read from</param>
+            <returns>Byte readed</returns>
+        </member>
+        <member name="M:Z80.IIO.WritePort(System.UInt16,System.Byte)">
+            <summary>
+            Write a single byte to a port
+            </summary>
+            <param name="Port">Port to write to</param>
+            <param name="Value">Byte to write</param>
+        </member>
+        <member name="T:Z80.IIDevice">
+            <summary>
+            Implemented by input devices
+            </summary>
+        </member>
+        <member name="M:Z80.IIDevice.ReadPort(System.UInt16,System.Byte@)">
+            <summary>
+            A port access. When Z80 asks to read from a port
+            consumers (usually IIO implementers) should asks to every input device (IIDevice implementers)
+            to read the byte from the specified port. If the result of the function is true, this means
+            that the IDevice has handled the request so the consumer should not ask to other devices for the
+            input
+            </summary>
+            <param name="Port">Port address</param>
+            <param name="Value">Value readed</param>
+            <returns>True if the port is handled by this device, false otherwise</returns>
+        </member>
+        <member name="M:Z80.IODevice.WritePort(System.UInt16,System.Byte)">
+            <summary>
+            A port access. When Z80 asks to write to a port
+            consumers (usually IIO implementers) should asks to every input device (IODevice implementers)
+            to write the byte to the specified port. If the result of the function is true, this means
+            that the ODevice has handled the request so the consumer should not ask to other devices for the
+            output
+            </summary>
+            <param name="Port">Port address</param>
+            <param name="Value">Value to write</param>
+            <returns>
+            True if the port is handled by this device, false otherwise.
+            This is different from input ports because an output port can be handled
+            by more than one Device
+            </returns>
+        </member>
+        <member name="T:Z80.IMemory">
+            <summary>
+            Basic interface for memory access
+            </summary>
+        </member>
+        <member name="E:Z80.IMemory.OnRead">
+            <summary>
+            OnRead event (called before read)
+            </summary>
+        </member>
+        <member name="E:Z80.IMemory.OnWrite">
+            <summary>
+            OnWrite event (called before write)
+            </summary>
+        </member>
+        <member name="M:Z80.IMemory.ReadByte(System.UInt16)">
+            <summary>
+            Read a single byte from memory
+            </summary>
+            <param name="Address">Address to read from</param>
+            <returns>Byte readed</returns>
+        </member>
+        <member name="M:Z80.IMemory.WriteByte(System.UInt16,System.Byte)">
+            <summary>
+            Write a single byte in memory
+            </summary>
+            <param name="Address">Address to write to</param>
+            <param name="Value">Byte to write</param>
+        </member>
+        <member name="M:Z80.IMemory.ReadWord(System.UInt16)">
+            <summary>
+            Read a word from memory
+            </summary>
+            <param name="Address">Address to read from. Z80 is big endian so bits 0-7 are readed from Address, bits 8-15 are readed from Address + 1</param>
+            <returns>Word readed</returns>
+        </member>
+        <member name="M:Z80.IMemory.WriteWord(System.UInt16,System.UInt16)">
+            <summary>
+            Write a word to memory
+            </summary>
+            <param name="Address">Address to write to. Z80 is big endian so bits 0-7 are writed to Address, bits 8-15 are writed to Address + 1</param>
+            <param name="Value">Word to write</param>
+        </member>
+        <member name="P:Z80.IMemory.Size">
+            <summary>
+            Total size in byte of memory (include paged memory too)
+            </summary>
+        </member>
+        <member name="P:Z80.IMemory.Item(System.Int32)">
+            <summary>
+            Access to plain memory not using any pagination function.
+            It can be used for cheat search, for direct memory access
+            and so on
+            </summary>
+        </member>
+        <member name="P:Z80.IMemory.Raw">
+            <summary>
+            Byte array containing the whole memory.
+            It can be used for cheat search, for direct memory access,
+            for saving and loading images and so on
+            </summary>
+        </member>
+        <member name="T:Z80.OnReadHandler">
+            <summary>
+            Handler of a memory read event (not a standard M$ event declaration but...)
+            </summary>
+        </member>
+        <member name="T:Z80.OnWriteHandler">
+            <summary>
+            Handler of a memory write event (not a standard M$ event declaration but...)
+            </summary>
+        </member>
+        <member name="T:Z80.Register">
+            <summary>
+            Class containing a single register.
+            </summary>
+        </member>
+        <member name="P:Z80.Register.h">
+            <summary>
+            High bits of the register
+            </summary>
+        </member>
+        <member name="P:Z80.Register.l">
+            <summary>
+            Low bits of the register
+            </summary>
+        </member>
+        <member name="P:Z80.Register.w">
+            <summary>
+            Register
+            </summary>
+        </member>
+        <member name="M:Z80.Register.Swap(Z80.Register)">
+            <summary>
+            Used to swap this register with another
+            </summary>
+            <param name="Register">Register to swap with this</param>
+        </member>
+        <member name="T:Z80.HalfRegister">
+            <summary>
+            Class containing half register
+            </summary>
+        </member>
+        <member name="M:Z80.HalfRegister.#ctor">
+            <summary>
+            Main constructor
+            </summary>
+        </member>
+        <member name="M:Z80.HalfRegister.#ctor(System.Byte)">
+            <summary>
+            Constructor with initial value
+            </summary>
+            <param name="Value">Initial value</param>
+        </member>
+        <member name="P:Z80.HalfRegister.Value">
+            <summary>
+            Half register value
+            </summary>
+        </member>
+        <member name="T:Z80.Status">
+            <summary>
+            Z80 Status
+            </summary>
+        </member>
+        <member name="P:Z80.Status.RegisterAF">
+            <summary>
+            Accumulator and flags register
+            </summary>
+        </member>
+        <member name="P:Z80.Status.AF">
+            <summary>
+            Access to AF register as word
+            </summary>
+        </member>
+        <member name="P:Z80.Status.A">
+            <summary>
+            Access to bits 8-15 of AF
+            </summary>
+        </member>
+        <member name="P:Z80.Status.F">
+            <summary>
+            Access to bits 0-7 of AF
+            </summary>
+        </member>
+        <member name="P:Z80.Status.RegisterBC">
+            <summary>
+            BC Register
+            </summary>
+        </member>
+        <member name="P:Z80.Status.BC">
+            <summary>
+            Access to BC register as word
+            </summary>
+        </member>
+        <member name="P:Z80.Status.B">
+            <summary>
+            Access to 8-15 bits of BC
+            </summary>
+        </member>
+        <member name="P:Z80.Status.C">
+            <summary>
+            Access to 0-7 bits of BC
+            </summary>
+        </member>
+        <member name="P:Z80.Status.RegisterDE">
+            <summary>
+            DE Register
+            </summary>
+        </member>
+        <member name="P:Z80.Status.DE">
+            <summary>
+            Access to DE Register as word
+            </summary>
+        </member>
+        <member name="P:Z80.Status.D">
+            <summary>
+            Access to bit 8-15 of DE
+            </summary>
+        </member>
+        <member name="P:Z80.Status.E">
+            <summary>
+            Access to bit 0-7 of DE
+            </summary>
+        </member>
+        <member name="P:Z80.Status.RegisterHL">
+            <summary>
+            HL Register
+            </summary>
+        </member>
+        <member name="P:Z80.Status.HL">
+            <summary>
+            Access to HL register as word
+            </summary>
+        </member>
+        <member name="P:Z80.Status.H">
+            <summary>
+            Access to bits 8-15 of HL
+            </summary>
+        </member>
+        <member name="P:Z80.Status.L">
+            <summary>
+            Access to bits 0-7 of HL
+            </summary>
+        </member>
+        <member name="P:Z80.Status.RegisterSP">
+            <summary>
+            Stack pointer register
+            </summary>
+        </member>
+        <member name="P:Z80.Status.SP">
+            <summary>
+            Access to SP register as word
+            </summary>
+        </member>
+        <member name="P:Z80.Status.RegisterAF_">
+            <summary>
+            Alternate Accumulator and Flags Register
+            </summary>
+        </member>
+        <member name="P:Z80.Status.RegisterBC_">
+            <summary>
+            Alternate BC Register
+            </summary>
+        </member>
+        <member name="P:Z80.Status.RegisterDE_">
+            <summary>
+            Alternate DE Register
+            </summary>
+        </member>
+        <member name="P:Z80.Status.RegisterHL_">
+            <summary>
+            Alternate HL Register
+            </summary>
+        </member>
+        <member name="P:Z80.Status.RegisterIX">
+            <summary>
+            Index register IX
+            </summary>
+        </member>
+        <member name="P:Z80.Status.IX">
+            <summary>
+            Access to IX register as word
+            </summary>
+        </member>
+        <member name="P:Z80.Status.RegisterIY">
+            <summary>
+            Index register IY
+            </summary>
+        </member>
+        <member name="P:Z80.Status.IY">
+            <summary>
+            Access to IY register as word
+            </summary>
+        </member>
+        <member name="P:Z80.Status.I">
+            <summary>
+            Interrupt register
+            </summary>
+        </member>
+        <member name="P:Z80.Status.R">
+            <summary>
+            Refresh register
+            </summary>
+        </member>
+        <member name="P:Z80.Status.R7">
+            <summary>
+            Refresh register Bit 7
+            </summary>
+        </member>
+        <member name="P:Z80.Status.PC">
+            <summary>
+            Program counter
+            </summary>
+        </member>
+        <member name="P:Z80.Status.Halted">
+            <summary>
+            CPU Halted
+            </summary>
+        </member>
+        <member name="P:Z80.Status.IFF1">
+            <summary>
+            Main interrupts flip flop
+            </summary>
+        </member>
+        <member name="P:Z80.Status.IFF2">
+            <summary>
+            Temporary storage for IFF1
+            </summary>
+        </member>
+        <member name="P:Z80.Status.IM">
+            <summary>
+            Interrupt Mode (can be 0, 1, 2)
+            </summary>
+        </member>
+        <member name="M:Z80.Status.Reset">
+            <summary>
+            Resets the Z80 status
+            </summary>
+        </member>
+        <member name="M:Z80.Status.Serialize(System.IO.TextWriter)">
+            <summary>
+            Serializes the status in a text stream
+            </summary>
+            <param name="stream"></param>
+        </member>
+        <member name="M:Z80.Status.Clone">
+            <summary>
+            Make a copy of this class
+            </summary>
+            <returns>A new status class containing this status</returns>
+        </member>
+        <member name="T:Z80.FlagRegisterDefinition">
+            <summary>
+            Definition of F register content
+            </summary>
+        </member>
+        <member name="F:Z80.FlagRegisterDefinition.C">
+            <summary>
+            Carry flag
+            </summary>
+        </member>
+        <member name="F:Z80.FlagRegisterDefinition.N">
+            <summary>
+            Add/Subtract flag
+            </summary>
+        </member>
+        <member name="F:Z80.FlagRegisterDefinition.P">
+            <summary>
+            Parity flag
+            </summary>
+        </member>
+        <member name="F:Z80.FlagRegisterDefinition.V">
+            <summary>
+            Overflow flag
+            </summary>
+        </member>
+        <member name="F:Z80.FlagRegisterDefinition._3">
+            <summary>
+            Not used
+            </summary>
+        </member>
+        <member name="F:Z80.FlagRegisterDefinition.H">
+            <summary>
+            Half carry flag
+            </summary>
+        </member>
+        <member name="F:Z80.FlagRegisterDefinition._5">
+            <summary>
+            Not used
+            </summary>
+        </member>
+        <member name="F:Z80.FlagRegisterDefinition.Z">
+            <summary>
+            Zero flag
+            </summary>
+        </member>
+        <member name="F:Z80.FlagRegisterDefinition.S">
+            <summary>
+            Sign flag
+            </summary>
+        </member>
+        <member name="T:Z80.uP">
+            <summary>
+            Class rappresenting a system based on Z80
+            </summary>
+        </member>
+        <member name="T:Z80.uP.OnFetchHandler">
+            <summary>
+            Handler of a fetch event (not a standard M$ event declaration but...)
+            </summary>
+        </member>
+        <member name="E:Z80.uP.OnFetch">
+            <summary>
+            Fetch event (used during debug)
+            </summary>
+        </member>
+        <member name="M:Z80.uP.LookupTables_Init">
+            <summary>
+            Initialise tables used to determine flags
+            </summary>
+        </member>
+        <member name="M:Z80.uP.#ctor(Z80.IMemory,Z80.IIO)">
+            <summary>
+            Create new system based on Z80
+            </summary>
+            <param name="Memory">System memory</param>
+            <param name="IO">IO</param>
+        </member>
+        <member name="P:Z80.uP.Memory">
+            <summary>
+            System memory
+            </summary>
+        </member>
+        <member name="P:Z80.uP.IO">
+            <summary>
+            System IO
+            </summary>
+        </member>
+        <member name="P:Z80.uP.Status">
+            <summary>
+            Z80 internal status
+            </summary>
+        </member>
+        <member name="M:Z80.uP.Reset">
+            <summary>
+            Resets the system
+            </summary>
+        </member>
+        <member name="M:Z80.uP.Interrupt">
+            <summary>
+            Raise (process) a Z80 maskable interrupt
+            </summary>
+        </member>
+        <member name="M:Z80.uP.GetHalfRegister(System.Byte)">
+            <summary>
+            From an opcode returns a half register following the rules
+            Reg opcode
+              A xxxxx111
+              B xxxxx000
+              C xxxxx001
+              D xxxxx010
+              E xxxxx011
+              H xxxxx100
+              L xxxxx101
+            </summary>
+            <param name="opcode">opcode</param>
+            <returns>The half register or null if opcode is 110 (it is the ID for (HL))</returns>
+        </member>
+        <member name="M:Z80.uP.GetRegister(System.Byte,System.Boolean)">
+            <summary>
+            From an opcode return a register following the rules
+            Reg         opcode
+             BC         xx00xxxx
+             DE         xx01xxxx
+             HL         xx10xxxx
+             SP or AF   xx11xxxx
+            </summary>
+            <param name="opcode">opcode</param>
+            <param name="ReturnSP">Checked if opcode is 11. If this parameter is true then SP is returned else AF is returned</param>
+            <returns>The register</returns>
+        </member>
+        <member name="M:Z80.uP.CheckFlag(System.Byte)">
+            <summary>
+            Check the flag related to opcode according with the following table:
+            Cond opcode   Flag Description
+            NZ   xx000xxx  Z   Not Zero
+             Z   xx001xxx  Z   Zero
+            NC   xx010xxx  C   Not Carry
+             C   xx011xxx  C   Carry
+            PO   xx100xxx  P/V Parity odd  (Not parity)
+            PE   xx101xxx  P/V Parity even (Parity)
+             P   xx110xxx  S   Sign positive
+             M   xx111xxx  S   Sign negative
+            </summary>
+            <param name="opcode">The opcode</param>
+            <returns>True if the condition is satisfied otherwise false</returns>
+        </member>
+        <member name="M:Z80.uP.Push(Z80.Register)">
+            <summary>
+            Push a register in stack and decrement SP
+            </summary>
+            <param name="Register">Register to push</param>
+        </member>
+        <member name="M:Z80.uP.Push(System.Byte)">
+            <summary>
+            Push a byte in stack and decrement SP
+            </summary>
+            <param name="Byte">Byte to push</param>
+        </member>
+        <member name="M:Z80.uP.Push(System.UInt16)">
+            <summary>
+            Push a word in stack and decrement SP
+            </summary>
+            <param name="Word">Word to push</param>
+        </member>
+        <member name="M:Z80.uP.Pop(Z80.Register)">
+            <summary>
+            Pop a register from stack and increment SP
+            </summary>
+            <param name="Register">Register to pop</param>
+        </member>
+        <member name="M:Z80.uP.Pop(System.Byte@)">
+            <summary>
+            Pop a byte from stack and increment SP
+            </summary>
+            <param name="Byte">Byte to pop</param>
+        </member>
+        <member name="M:Z80.uP.Pop(System.UInt16@)">
+            <summary>
+            Pop a word from stack and increment SP
+            </summary>
+            <param name="Word">Word to pop</param>
+        </member>
+        <member name="M:Z80.uP.AND_A(System.Byte)">
+            <summary>
+            A logical AND operation is performed between the byte specified by the op
+            operand and the byte contained in the Accumulator; the result is stored in
+            the Accumulator.
+            Condition Bits Affected:
+            S is set if result is negative; reset otherwise
+            Z is set if result is zero; reset otherwise
+            H is set
+            P/V is reset if overflow; reset otherwise
+            N is reset
+            C is reset
+            </summary>
+            <param name="op">The operand</param>
+        </member>
+        <member name="M:Z80.uP.ADC_A(System.Byte)">
+            <summary>
+            The op operand, along with the Carry Flag (C in the F register) is added to the
+            contents of the Accumulator, and the result is stored in the Accumulator.
+            Condition Bits Affected:
+            S is set if result is negative; reset otherwise
+            Z is set if result is zero; reset otherwise
+            H is set if carry from bit 3; reset otherwise
+            P/V is set if overflow; reset otherwise
+            N is reset
+            C is set if carry from bit 7: reset otherwise
+            </summary>
+            <param name="op">The operand</param>
+        </member>
+        <member name="M:Z80.uP.ADC_HL(System.UInt16)">
+            <summary>
+            The op operand, along with the Carry Flag (C in the F register) is added to the
+            contents of HL register, and the result is stored in HL register.
+            Condition Bits Affected:
+            S is set if result is negative; reset otherwise
+            Z is set if result is zero; reset otherwise
+            H is set if carry from bit 11; reset otherwise
+            P/V is set if overflow; reset otherwise
+            N is reset
+            C is set if carry from bit 15: reset otherwise
+            </summary>
+            <param name="op">The operand</param>
+        </member>
+        <member name="M:Z80.uP.ADD_A(System.Byte)">
+            <summary>
+            The op operand is added to the
+            contents of the Accumulator, and the result is stored in the Accumulator.
+            Condition Bits Affected:
+            S is set if result is negative; reset otherwise
+            Z is set if result is zero; reset otherwise
+            H is set if carry from bit 3; reset otherwise
+            P/V is set if overflow; reset otherwise
+            N is reset
+            C is set if carry from bit 7: reset otherwise
+            </summary>
+            <param name="op">The operand</param>
+        </member>
+        <member name="M:Z80.uP.ADD_16(Z80.Register,System.UInt16)">
+            <summary>
+            The op1 operand,  is added to the
+            contents of op2 register, and the result is stored in op1 register.
+            Condition Bits Affected:
+            S is not affected
+            Z is not affected
+            H is set if carry from bit 11; reset otherwise
+            P/V is not affected
+            N is reset
+            C is set if carry from bit 15: reset otherwise
+            </summary>
+            <param name="op1">First operand</param>
+            <param name="op2">Second operand</param>
+        </member>
+        <member name="M:Z80.uP.BIT(System.Byte,System.Byte)">
+            <summary>
+            This instruction tests bit bit in operand op and sets the Z flag accordingly.
+            Condition Bits Affected:
+            S is unknown
+            Z is set if specified bit is 0; reset otherwise
+            H is set
+            P/V is unknown
+            N is reset
+            C is not affected
+            </summary>
+            <param name="bit">The bit to test</param>
+            <param name="op">The operand</param>
+        </member>
+        <member name="M:Z80.uP.BIT7(System.Byte)">
+            <summary>
+            This instruction tests bit 7 in operand op and sets the Z flag accordingly.
+            Condition Bits Affected:
+            S is affected if bit 7 is set
+            Z is set if specified bit is 0; reset otherwise
+            H is set
+            P/V is unknown
+            N is reset
+            C is not affected
+            </summary>
+            <param name="op">The operand</param>
+        </member>
+        <member name="M:Z80.uP.CALL">
+            <summary>
+            Operation: (SP-1) = PCH, (SP-2) = PCL, PC = nn
+            Description: The current contents of the Program Counter (PC) are pushed onto the top
+            of the external memory stack. The operands nn are then loaded to the PC to point to the 
+            address in memory where the first Op Code of a subroutine is to be fetched. At the 
+            end of the subroutine, a RETurn instruction can be used to return to the original program 
+            flow by popping the top of the stack back to the PC. The push is accomplished by first 
+            decrementing the current contents of the Stack Pointer (register pair SP), loading the 
+            high-order byte of the PC contents to the memory address now pointed to by the SP; then
+            decrementing SP again, and loading the low order byte of the PC contents to the top of 
+            stack.
+            Because this is a 3-byte instruction, the Program Counter was incremented by three before 
+            the push is executed.
+            </summary>
+        </member>
+        <member name="M:Z80.uP.CCF">
+            <summary>
+            The Carry flag in the F register is inverted.
+            Condition Bits Affected:
+            S is not affected
+            Z is not affected
+            H, previous carry is copied
+            P/V is not affected
+            N is reset
+            C is set if CY was 0 before operation; reset otherwise
+            </summary>
+        </member>
+        <member name="M:Z80.uP.CP(System.Byte)">
+            <summary>
+            The contents of the op operand are compared (same of sub) with the contents of the
+            Accumulator. If there is a true compare, the Z flag is set. The execution of
+            this instruction does not affect the contents of the Accumulator.
+            Condition Bits Affected:
+            S is set if result is negative; reset otherwise
+            Z is set if result is zero; reset otherwise
+            H is set if borrow from bit 4; reset otherwise
+            P/V is set if overflow; reset otherwise
+            N is set
+            C is set if borrow; reset otherwise
+            </summary>
+            <param name="op">The operand</param>
+        </member>
+        <member name="T:Z80.uP.instruction">
+            <summary>
+            ???????????????????????????????????????????????????????????
+            </summary>
+        </member>
+        <member name="M:Z80.uP.DDFDCB_ROTATESHIFT(System.Byte,System.Byte,Z80.uP.instruction,System.UInt16)">
+            <summary>
+            
+            </summary>
+            <param name="time"></param>
+            <param name="target"></param>
+            <param name="instruction"></param>
+            <param name="tempaddr"></param>
+        </member>
+        <member name="M:Z80.uP.CPD">
+            <summary>
+            The contents of the memory location addressed by the HL register pair is
+            compared with the contents of the Accumulator. In case of a true
+            compare, a condition bit is set. The HL and Byte Counter (register pair
+            BC) are decremented.
+            Condition Bits Affected:
+            S is set if result is negative; reset otherwise
+            Z is set if A is (HL); reset otherwise
+            H is set if borrow from bit 4; reset otherwise
+            P/V is set if BC -1 is not 0; reset otherwise
+            N is set
+            C is not affected
+            </summary>
+        </member>
+        <member name="M:Z80.uP.CPDR">
+            <summary>
+            The contents of the memory location addressed by the HL register pair is
+            compared with the contents of the Accumulator. In case of a true compare,
+            a condition bit is set. The HL and BC (Byte Counter) register pairs are
+            decremented. If decrementing causes the BC to go to zero or if A = (HL),
+            the instruction is terminated. If BC is not zero and A = (HL), the program
+            counter is decremented by two and the instruction is repeated. Interrupts are
+            recognized and two refresh cycles execute after each data transfer. When
+            BC is set to zero, prior to instruction execution, the instruction loops
+            through 64 Kbytes if no match is found.
+            Condition Bits Affected:
+            S is set if result is negative; reset otherwise
+            Z is set if A = (HL); reset otherwise
+            H is set if borrow form bit 4; reset otherwise
+            P/V is set if BC -1 != 0; reset otherwise
+            N is set
+            C is not affected
+            </summary>
+        </member>
+        <member name="M:Z80.uP.CPI">
+            <summary>
+            The contents of the memory location addressed by the HL register is
+            compared with the contents of the Accumulator. In case of a true compare,
+            a condition bit is set. Then HL is incremented and the Byte Counter
+            (register pair BC) is decremented.
+            Condition Bits Affected:
+            S is set if result is negative; reset otherwise
+            Z is set if A is (HL); reset otherwise
+            H is set if borrow from bit 4; reset otherwise
+            P/V is set if BC -1 is not 0; reset otherwise
+            N is set
+            C is not affected
+            </summary>
+        </member>
+        <member name="M:Z80.uP.CPIR">
+            <summary>
+            The contents of the memory location addressed by the HL register pair is
+            compared with the contents of the Accumulator. In case of a true compare, a
+            condition bit is set. HL is incremented and the Byte Counter (register pair
+            BC) is decremented. If decrementing causes BC to go to zero or if A = (HL),
+            the instruction is terminated. If BC is not zero and A != (HL), the program
+            counter is decremented by two and the instruction is repeated. Interrupts are
+            recognized and two refresh cycles are executed after each data transfer.
+            If BC is set to zero before instruction execution, the instruction loops
+            through 64 Kbytes if no match is found.
+            Condition Bits Affected:
+            S is set if result is negative; reset otherwise
+            Z is set if A equals (HL); reset otherwise
+            H is set if borrow from bit 4; reset otherwise
+            P/V is set if BC -1 does not equal 0; reset otherwise
+            N is set
+            C is not affected
+            </summary>
+        </member>
+        <member name="M:Z80.uP.CPx">
+            <summary>
+            Used by CPD, CPI, CPDR, CPIR
+            The contents of the memory location addressed by the HL register is
+            compared with the contents of the Accumulator. In case of a true compare,
+            a condition bit is set. Then the Byte Counter(register pair BC) is 
+            decremented.
+            Condition Bits Affected:
+            S is set if result is negative; reset otherwise
+            Z is set if A is (HL); reset otherwise
+            H is set if borrow from bit 4; reset otherwise
+            P/V is set if BC -1 is not 0; reset otherwise
+            N is set
+            C is not affected
+            </summary>
+        </member>
+        <member name="M:Z80.uP.CPL">
+            <summary>
+            The contents of the Accumulator (register A) are inverted (one’s
+            complement).
+            Condition Bits Affected:
+            S is not affected
+            Z is not affected
+            H is set
+            P/V is not affected
+            N is set
+            C is not affected
+            </summary>
+        </member>
+        <member name="M:Z80.uP.DAA">
+            <summary>
+            This instruction conditionally adjusts the Accumulator for BCD addition and
+            subtraction operations. For addition (ADD, ADC, INC) or subtraction (SUB,
+            SBC, DEC, NEG)
+            </summary>
+        </member>
+        <member name="M:Z80.uP.DEC(Z80.HalfRegister)">
+            <summary>
+            The byte specified by the op operand is decremented
+            S is set if result is negative; reset otherwise
+            Z is set if result is zero; reset otherwise
+            H is set if borrow from bit 4, reset otherwise
+            P/V is set if m was 80H before operation; reset otherwise
+            N is set
+            C is not affected
+            </summary>
+            <param name="op">The operand</param>
+        </member>
+        <member name="M:Z80.uP.IN(Z80.HalfRegister,System.UInt16)">
+            <summary>
+            The contents of port are placed on the address bus to select the I/O device at 
+            one of 256 possible ports.
+            Usually port is BC (register BC) or An (Accumulator + number)
+            Then one byte from the selected port is placed on
+            the data bus and written to register reg in the CPU.
+            The flags are affected, checking the input data.
+            Condition Bits Affected:
+            S is set if input data is negative; reset otherwise
+            Z is set if input data is zero; reset otherwise
+            H is reset
+            P/V is set if parity is even; reset otherwise
+            N is reset
+            C is not affected
+            </summary>
+            <param name="reg">The register</param>
+            <param name="port">The port</param>
+        </member>
+        <member name="M:Z80.uP.INC(Z80.HalfRegister)">
+            <summary>
+            The byte contained in op is incremented.
+            Condition Bits Affected:
+            S is set if result is negative; reset otherwise
+            Z is set if result is zero; reset otherwise
+            H is set if carry from bit 3; reset otherwise
+            P/V is set if op was 7FH before operation; reset otherwise
+            N is reset
+            C is not affected
+            </summary>
+            <param name="op">The operand</param>
+        </member>
+        <member name="M:Z80.uP.IND">
+            <summary>
+            The contents of register C are placed on the bottom half (A0 through A7) of
+            the address bus to select the I/O device at one of 256 possible ports.
+            Register B may be used as a byte counter, and its contents are placed on the
+            top half (A8 through A15) of the address bus at this time. Then one byte
+            from the selected port is placed on the data bus and written to the CPU. The
+            contents of the HL register pair are placed on the address bus and the input
+            byte is written to the corresponding location of memory. Finally, the byte
+            counter and register pair HL are decremented.
+            Condition Bits Affected:
+            S is unknown
+            Z is set if B–1 = 0; reset otherwise
+            H is unknown
+            P/V is unknown
+            N is set
+            C is not affected
+            </summary>
+        </member>
+        <member name="M:Z80.uP.INDR">
+            <summary>
+            The contents of register C are placed on the bottom half (A0 through A7)
+            of the address bus to select the I/O device at one of 256 possible ports.
+            Register B is used as a byte counter, and its contents are placed on the top
+            half (A8 through A15) of the address bus at this time. Then one byte from
+            the selected port is placed on the data bus and written to the CPU. The
+            contents of the HL register pair are placed on the address bus and the
+            input byte is written to the corresponding location of memory. Then HL
+            and the byte counter are decremented. If decrementing causes B to go to
+            zero, the instruction is terminated. If B is not zero, the PC is decremented
+            by two and the instruction repeated. Interrupts are recognized and two
+            refresh cycles are executed after each data transfer.
+            When B is set to zero prior to instruction execution, 256 bytes of data are
+            input.
+            Condition Bits Affected:
+            S is unknown
+            Z is set
+            H is unknown
+            P/V is unknown
+            N is set
+            </summary>
+        </member>
+        <member name="M:Z80.uP.INI">
+            <summary>
+            The contents of register C are placed on the bottom half (A0 through A7) of
+            the address bus to select the I/O device at one of 256 possible ports.
+            Register B may be used as a byte counter, and its contents are placed on the
+            top half (A8 through A15) of the address bus at this time. Then one byte
+            from the selected port is placed on the data bus and written to the CPU. The
+            contents of the HL register pair are then placed on the address bus and the
+            input byte is written to the corresponding location of memory. Finally, the
+            byte counter is decremented and register pair HL is incremented.
+            Condition Bits Affected:
+            S is unknown
+            Z is set if B–1 = 0, reset otherwise
+            H is unknown
+            P/V is unknown
+            N is set
+            C is not affected
+            </summary>
+        </member>
+        <member name="M:Z80.uP.INIR">
+            <summary>
+            The contents of register C are placed on the bottom half (A0 through A7) of
+            the address bus to select the I/O device at one of 256 possible ports.
+            Register B is used as a byte counter, and its contents are placed on the top
+            half (A8 through A15) of the address bus at this time. Then one byte from
+            the selected port is placed on the data bus and written to the CPU. The
+            contents of the HL register pair are placed on the address bus and the input
+            byte is written to the corresponding location of memory. Then register pair
+            HL is incremented, the byte counter is decremented. If decrementing causes
+            B to go to zero, the instruction is terminated. If B is not zero, the PC is
+            decremented by two and the instruction repeated. Interrupts are recognized
+            and two refresh cycles execute after each data transfer.
+            Note: if B is set to zero prior to instruction execution, 256 bytes of data
+            are input.
+            Condition Bits Affected:
+            S is unknown
+            Z is set
+            H is unknown
+            P/V is unknown
+            N is set
+            C is not affected
+            </summary>
+        </member>
+        <member name="M:Z80.uP.INx">
+            <summary>
+            Used by INI, IND, INIR, INDR
+            The contents of register C are placed on the bottom half (A0 through A7) of
+            the address bus to select the I/O device at one of 256 possible ports.
+            Register B may be used as a byte counter, and its contents are placed on the
+            top half (A8 through A15) of the address bus at this time. Then one byte
+            from the selected port is placed on the data bus and written to the CPU. The
+            contents of the HL register pair are then placed on the address bus and the
+            input byte is written to the corresponding location of memory. Finally, the
+            byte counter is decremented. Register pair HL must be incremented/decremented 
+            by callers.
+            Condition Bits Affected:
+            S is unknown
+            Z is set if B–1 = 0, reset otherwise
+            H is unknown
+            P/V is unknown
+            N is set
+            C is not affected
+            </summary>
+        </member>
+        <member name="M:Z80.uP.LDD">
+            <summary>
+            This 2-byte instruction transfers a byte of data from the memory location
+            addressed by the contents of the HL register pair to the memory location
+            addressed by the contents of the DE register pair. Then both of these register
+            pairs including the BC (Byte Counter) register pair are decremented.
+            Condition Bits Affected:
+            S is not affected
+            Z is not affected
+            H is reset
+            P/V is set if BC -1 != 0; reset otherwise
+            N is reset
+            C is not affected
+            </summary>
+        </member>
+        <member name="M:Z80.uP.LDDR">
+            <summary>
+            This 2-byte instruction transfers a byte of data from the memory
+            location addressed by the contents of the HL register pair to the memory
+            location addressed by the contents of the DE register pair. Then both of
+            these registers, as well as the BC (Byte Counter), are decremented. If
+            decrementing causes BC to go to zero, the instruction is terminated. If
+            BC is not zero, the program counter is decremented by two and the
+            instruction is repeated. Interrupts are recognized and two refresh cycles
+            execute after each data transfer.
+            When BC is set to zero, prior to instruction execution, the instruction loops
+            through 64 Kbytes.
+            Condition Bits Affected:
+            S is not affected
+            Z is not affected
+            H is reset
+            P/V is reset
+            N is reset
+            </summary>
+        </member>
+        <member name="M:Z80.uP.LDI">
+            <summary>
+            A byte of data is transferred from the memory location addressed, by the
+            contents of the HL register pair to the memory location addressed by the
+            contents of the DE register pair. Then both these register pairs are
+            incremented and the BC (Byte Counter) register pair is decremented.
+            Condition Bits Affected:
+            S is not affected
+            Z is not affected
+            H is reset
+            P/V is set if BC -1 != 0; reset otherwise
+            N is reset
+            C is not affected
+            </summary>
+        </member>
+        <member name="M:Z80.uP.LDIR">
+            <summary>
+            This 2-byte instruction transfers a byte of data from the memory location
+            addressed by the contents of the HL register pair to the memory location
+            addressed by the DE register pair. Both these register pairs are incremented
+            and the BC (Byte Counter) register pair is decremented. If decrementing
+            causes the BC to go to zero, the instruction is terminated. If BC is not zero,
+            the program counter is decremented by two and the instruction is repeated.
+            Interrupts are recognized and two refresh cycles are executed after each
+            data transfer. When BC is set to zero prior to instruction execution, the
+            instruction loops through 64 Kbytes.
+            Condition Bits Affected:
+            S is not affected 
+            Z is not affected 
+            H is reset 
+            P/V is reset 
+            N is reset 
+            C is not affected
+            </summary>
+        </member>
+        <member name="M:Z80.uP.LDx">
+            <summary>
+            Used by LDI, LDD, LDIR, LDDR
+            A byte of data is transferred from the memory location addressed, by the
+            contents of the HL register pair to the memory location addressed by the
+            contents of the DE register pair. Then the BC (Byte Counter) register 
+            pair is decremented. Increase/Decrease of DE/HL registers must be done
+            by the caller.
+            Condition Bits Affected:
+            S is not affected
+            Z is not affected
+            H is reset
+            P/V is set if BC -1 != 0; reset otherwise
+            N is reset
+            C is not affected
+            </summary>
+        </member>
+        <member name="M:Z80.uP.LD_nndd(Z80.Register)">
+            <summary>
+            LD (nn), dd
+            </summary>
+            <param name="register">dd register</param>
+        </member>
+        <member name="M:Z80.uP.LD_ddnn(Z80.Register)">
+            <summary>
+            LD dd, (nn)
+            </summary>
+            <param name="register"></param>
+        </member>
+        <member name="M:Z80.uP.JP">
+            <summary>
+            Jump to absolute address
+            </summary>
+        </member>
+        <member name="M:Z80.uP.JR">
+            <summary>
+            Jump to relative address
+            </summary>
+        </member>
+        <member name="M:Z80.uP.OR(System.Byte)">
+            <summary>
+            A logical OR operation is performed between the byte specified by the op
+            operand and the byte contained in the Accumulator; the result is stored in
+            the Accumulator.
+            Condition Bits Affected:
+            S is set if result is negative; reset otherwise
+            Z is set if result is zero; reset otherwise
+            H is reset
+            P/V is set if overflow; reset otherwise
+            N is reset
+            C is reset
+            </summary>
+            <param name="op">The operand</param>
+        </member>
+        <member name="M:Z80.uP.OUTD">
+            <summary>
+            The contents of the HL register pair are placed on the address bus to select a
+            location in memory. The byte contained in this memory location is
+            temporarily stored in the CPU. Then, after the byte counter (B) is
+            decremented, the contents of register C are placed on the bottom half (A0
+            through A7) of the address bus to select the I/O device at one of 256
+            possible ports. Register B may be used as a byte counter, and its
+            decremented value is placed on the top half (A8 through A15) of the
+            address bus at this time. Next, the byte to be output is placed on the data bus
+            and written to the selected peripheral device. Finally, the register pair HL is
+            decremented.
+            Condition Bits Affected:
+            S is unknown
+            Z is set if B–1 = 0; reset otherwise
+            H is unknown
+            P/V is unknown
+            N is set
+            C is not affected
+            </summary>
+        </member>
+        <member name="M:Z80.uP.OTDR">
+            <summary>
+            The contents of the HL register pair are placed on the address bus to select a
+            location in memory. The byte contained in this memory location is tempo-rarily
+            stored in the CPU. Then, after the byte counter (B) is decremented,
+            the contents of register C are placed on the bottom half (A0 through A7) of
+            the address bus to select the I/O device at one of 256 possible ports. Regis-ter
+            B may be used as a byte counter, and its decremented value is placed on
+            the top half (A8 through A15) of the address bus at this time. Next, the byte
+            to be output is placed on the data bus and written to the selected peripheral
+            device. Then, register pair HL is decremented and if the decremented B
+            register is not zero, the Program Counter (PC) is decremented by two and
+            the instruction is repeated. If B has gone to zero, the instruction is termi-nated.
+            Interrupts are recognized and two refresh cycles are executed after
+            each data transfer.
+            Note: When B is set to zero prior to instruction execution, the instruc-tion
+            outputs 256 bytes of data.
+            Condition Bits Affected:
+            S is unknown
+            Z is set
+            H is unknown
+            P/V is unknown
+            N is set
+            C is not affected
+            </summary>
+        </member>
+        <member name="M:Z80.uP.OUTI">
+            <summary>
+            The contents of the HL register pair are placed on the address bus to select a
+            location in memory. The byte contained in this memory location is
+            temporarily stored in the CPU. Then, after the byte counter (B) is
+            decremented, the contents of register C are placed on the bottom half (A0
+            through A7) of the address bus to select the I/O device at one of 256
+            possible ports. Register B may be used as a byte counter, and its
+            decremented value is placed on the top half (A8 through A15) of the
+            address bus. The byte to be output is placed on the data bus and written to a
+            selected peripheral device. Finally, the register pair HL is incremented.
+            Condition Bits Affected:
+            S is unknown
+            Z is set if B–1 = 0; reset otherwise
+            H is unknown
+            P/V is unknown
+            N is set
+            C is not affected
+            </summary>
+        </member>
+        <member name="M:Z80.uP.OTIR">
+            <summary>
+            The contents of the HL register pair are placed on the address bus to select
+            a location in memory. The byte contained in this memory location is tempo-rarily
+            stored in the CPU. Then, after the byte counter (B) is decremented, the
+            contents of register C are placed on the bottom half (A0 through A7) of the
+            address bus to select the I/O device at one of 256 possible ports. Register B
+            may be used as a byte counter, and its decremented value is placed on the top
+            half (A8 through A15) of the address bus at this time. Next, the byte to be
+            output is placed on the data bus and written to the selected peripheral device.
+            Then register pair HL is incremented. If the decremented B register is not
+            zero, the Program Counter (PC) is decremented by two and the instruction is
+            repeated. If B has gone to zero, the instruction is terminated. Interrupts are
+            recognized and two refresh cycles are executed after each data transfer.
+            Note: When B is set to zero prior to instruction execution, the instruc-tion
+            outputs 256 bytes of data.
+            Condition Bits Affected:
+            S is unknown
+            Z is set
+            H is unknown
+            P/V is unknown
+            N is set
+            C is not affected
+            </summary>
+        </member>
+        <member name="M:Z80.uP.OUTx">
+            <summary>
+            Used by OUTI, OUTD, OTIR, OTDR
+            The contents of the HL register pair are placed on the address bus to select a
+            location in memory. The byte contained in this memory location is
+            temporarily stored in the CPU. Then, after the byte counter (B) is
+            decremented, the contents of register C are placed on the bottom half (A0
+            through A7) of the address bus to select the I/O device at one of 256
+            possible ports. Register B may be used as a byte counter, and its
+            decremented value is placed on the top half (A8 through A15) of the
+            address bus. The byte to be output is placed on the data bus and written to a
+            selected peripheral device. The register pair HL must be incremented or decremented
+            by the callre.
+            Condition Bits Affected:
+            S is unknown
+            Z is set if B–1 = 0; reset otherwise
+            H is unknown
+            P/V is unknown
+            N is set
+            C is not affected
+            </summary>
+        </member>
+        <member name="M:Z80.uP.RET">
+            <summary>
+            The byte at the memory location specified by the contents of the Stack
+            Pointer (SP) register pair is moved to the low order eight bits of the
+            Program Counter (PC). The SP is now incremented and the byte at the
+            memory location specified by the new contents of this instruction is fetched
+            from the memory location specified by the PC. This instruction is normally
+            used to return to the main line program at the completion of a routine
+            entered by a CALL instruction.
+            Condition Bits Affected: None
+            </summary>
+        </member>
+        <member name="M:Z80.uP.RL(Z80.HalfRegister)">
+            <summary>
+            The contents of the op operand are rotated left 1-bit position. The content of
+            bit 7 is copied to the Carry flag and the previous content of the Carry flag is
+            copied to bit 0.
+            Condition Bits Affected:
+            S is set if result is negative; reset otherwise
+            Z is set if result is zero; reset otherwise
+            H is reset
+            P/V is set if parity even; reset otherwise
+            N is reset
+            C is data from bit 7 of source register
+            </summary>
+            <param name="op">The operand</param>
+        </member>
+        <member name="M:Z80.uP.RLA">
+            <summary>
+            The contents of the Accumulator (register A) are rotated left 1-bit position
+            through the Carry flag. The previous content of the Carry flag is copied to
+            bit 0. Bit 0 is the least-significant bit.
+            Condition Bits Affected:
+            S is not affected
+            Z is not affected
+            H is reset
+            P/V is not affected
+            N is reset
+            C is data from bit 7 of Accumulator
+            </summary>
+        </member>
+        <member name="M:Z80.uP.RLCA">
+            <summary>
+            The contents of the Accumulator (register A) are rotated left 1-bit position.
+            The sign bit (bit 7) is copied to the Carry flag and also to bit 0. Bit 0 is the
+            least-significant bit.
+            Condition Bits Affected:
+            S is not affected
+            Z is not affected
+            H is reset
+            P/V is not affected
+            N is reset
+            C is data from bit 7 of Accumulator
+            </summary>
+        </member>
+        <member name="M:Z80.uP.RLC(Z80.HalfRegister)">
+            <summary>
+            The contents of operand op are rotated left 1-bit position. The content of bit 7
+            is copied to the Carry flag and also to bit 0.
+            Condition Bits Affected:
+            S is set if result is negative; reset otherwise
+            Z is set if result is zero; reset otherwise
+            H is reset
+            P/V is set if parity even; reset otherwise
+            N is reset
+            C is data from bit 7 of source register
+            </summary>
+            <param name="op"></param>
+        </member>
+        <member name="M:Z80.uP.RLD">
+            <summary>
+            The contents of the low order four bits (bits 3, 2, 1, and 0) of the memory
+            location (HL) are copied to the high order four bits (7, 6, 5, and 4) of that
+            same memory location; the previous contents of those high order four bits
+            are copied to the low order four bits of the Accumulator (register A); and
+            the previous contents of the low order four bits of the Accumulator are
+            copied to the low order four bits of memory location (HL). The contents of
+            the high order bits of the Accumulator are unaffected.
+            Note: (HL) means the memory location specified by the contents of the
+            HL register pair.
+            Condition Bits Affected:
+            S is set if Accumulator is negative after operation; reset otherwise
+            Z is set if Accumulator is zero after operation; reset otherwise
+            H is reset
+            P/V is set if parity of Accumulator is even after operation; reset otherwise
+            N is reset
+            C is not affected
+            </summary>
+        </member>
+        <member name="M:Z80.uP.RR(Z80.HalfRegister)">
+            <summary>
+            The contents of operand op are rotated right 1-bit position through the Carry
+            flag. The content of bit 0 is copied to the Carry flag and the previous
+            content of the Carry flag is copied to bit 7. Bit 0 is the least-significant bit.
+            Condition Bits Affected:
+            S is set if result is negative; reset otherwise
+            Z is set if result is zero; reset otherwise
+            H is reset
+            P/V is set if parity even; reset otherwise,
+            N is reset
+            C is data from bit 0 of source register
+            </summary>
+            <param name="op">The operand</param>
+        </member>
+        <member name="M:Z80.uP.RRA">
+            <summary>
+            The contents of the Accumulator (register A) are rotated right 1-bit position
+            through the Carry flag. The previous content of the Carry flag is copied to
+            bit 7. Bit 0 is the least-significant bit.
+            Condition Bits Affected:
+            S is not affected
+            Z is not affected
+            H is reset
+            P/V is not affected
+            N is reset
+            C is data from bit 0 of Accumulator
+            </summary>
+        </member>
+        <member name="M:Z80.uP.RRC(Z80.HalfRegister)">
+            <summary>
+            The contents of the op operand are rotated right 1-bit position. The content
+            of bit 0 is copied to the Carry flag and also to bit 7. Bit 0 is the least-significant
+            bit.
+            Condition Bits Affected:
+            S is set if result is negative; reset otherwise
+            Z is set if result is zero; reset otherwise
+            H is reset
+            P/V is set if parity even; reset otherwise,
+            N is reset
+            C is data from bit 0 of source register
+            </summary>
+            <param name="op">The operand</param>
+        </member>
+        <member name="M:Z80.uP.RRCA">
+            <summary>
+            The contents of the Accumulator (register A) are rotated right 1-bit
+            position. Bit 0 is copied to the Carry flag and also to bit 7. Bit 0 is the leastsignificant
+            bit.
+            Condition Bits Affected:
+            S is not affected
+            Z is not affected
+            H is reset
+            P/V is not affected
+            N is reset
+            C is data from bit 0 of Accumulator
+            </summary>
+        </member>
+        <member name="M:Z80.uP.RRD">
+            <summary>
+            The contents of the low order four bits (bits 3, 2, 1, and 0) of memory
+            location (HL) are copied to the low order four bits of the Accumulator
+            (register A). The previous contents of the low order four bits of the
+            Accumulator are copied to the high order four bits (7, 6, 5, and 4) of
+            location (HL); and the previous contents of the high order four bits of (HL)
+            are copied to the low order four bits of (HL). The contents of the high order
+            bits of the Accumulator are unaffected.
+            (HL) means the memory location specified by the contents of the HL
+            register pair.
+            Condition Bits Affected:
+            S is set if Accumulator is negative after operation; reset otherwise
+            Z is set if Accumulator is zero after operation; reset otherwise
+            H is reset
+            P/V is set if parity of Accumulator is even after operation; reset otherwise
+            N is reset
+            C is not affected
+            </summary>
+        </member>
+        <member name="M:Z80.uP.RST(System.Byte)">
+            <summary>
+            The current Program Counter (PC) contents are pushed onto the external
+            memory stack, and the page zero memory location given by operand op is
+            loaded to the PC. Program execution then begins with the Op Code in the
+            address now pointed to by PC. The push is performed by first decrementing
+            the contents of the Stack Pointer (SP), loading the high-order byte of PC to
+            the memory address now pointed to by SP, decrementing SP again, and
+            loading the low order byte of PC to the address now pointed to by SP. The
+            Restart instruction allows for a jump to one of eight addresses indicated in
+            the table below. The operand op is assembled to the object code using the
+            corresponding T state.
+            Because all addresses are in page zero of memory, the high order byte of
+            PC is loaded with 00H. The number selected from the p column of the table
+            is loaded to the low order byte of PC.
+            p   t
+            00H 000
+            08H 001
+            10H 010
+            18H 011
+            20H 100
+            28H 101
+            30H 110
+            38H 111
+            </summary>
+            <param name="op">The operand</param>
+        </member>
+        <member name="M:Z80.uP.SBC_A(System.Byte)">
+            <summary>
+            The s operand, along with the Carry flag (C in the F register) is subtracted
+            from the contents of the Accumulator, and the result is stored in the
+            Accumulator.
+            Condition Bits Affected:
+            S is set if result is negative; reset otherwise
+            Z is set if result is zero; reset otherwise
+            H is set if borrow from bit 4; reset otherwise
+            P/V is reset if overflow; reset otherwise
+            N is set
+            C is set if borrow; reset otherwise
+            </summary>
+            <param name="op">The operand</param>
+        </member>
+        <member name="M:Z80.uP.SBC_HL(System.UInt16)">
+            <summary>
+            The contents of the operand op and the Carry Flag (C flag in the F register) 
+            are subtracted from the contents of register pair HL, and the result is 
+            stored in HL.
+            Condition Bits Affected:
+            S is set if result is negative; reset otherwise
+            Z is set if result is zero; reset otherwise
+            H is set if a borrow from bit 12; reset otherwise
+            P/V is set if overflow; reset otherwise
+            N is set
+            C is set if borrow; reset otherwise
+            </summary>
+            <param name="op">The operand</param>
+        </member>
+        <member name="M:Z80.uP.SLA(Z80.HalfRegister)">
+            <summary>
+            An arithmetic shift left 1-bit position is performed on the contents of
+            operand op. The content of bit 7 is copied to the Carry flag. Bit 0 is the
+            least-significant bit.
+            Condition Bits Affected:
+            S is set if result is negative; reset otherwise
+            Z is set if result is zero; reset otherwise
+            H is reset
+            P/V is set if parity is even; reset otherwise
+            N is reset
+            C is data from bit 7
+            </summary>
+            <param name="op">The operand</param>
+        </member>
+        <member name="M:Z80.uP.SLL(Z80.HalfRegister)">
+            <summary>
+            An arithmetic shift left 1-bit position is performed on the contents of
+            operand op. The content of bit 7 is copied to the Carry flag. Bit 0 is the
+            least-significant bit.
+            Condition Bits Affected:
+            S is set if result is negative; reset otherwise
+            Z is set if result is zero; reset otherwise
+            H is reset
+            P/V is set if parity is even; reset otherwise
+            N is reset
+            C is data from bit 7
+            </summary>
+            <param name="op">The operand</param>
+        </member>
+        <member name="M:Z80.uP.SRA(Z80.HalfRegister)">
+            <summary>
+            An arithmetic shift right 1-bit position is performed on the contents of
+            operand m. The content of bit 0 is copied to the Carry flag and the previous
+            content of bit 7 is unchanged. Bit 0 is the least-significant bit.
+            Condition Bits Affected:
+            S is set if result is negative; reset otherwise
+            Z is set if result is zero; reset otherwise
+            H is reset
+            P/V is set if parity is even; reset otherwise
+            N is reset
+            C is data from bit 0 of source register
+            </summary>
+            <param name="op">The operand</param>
+        </member>
+        <member name="M:Z80.uP.SRL(Z80.HalfRegister)">
+            <summary>
+            The contents of operand op are shifted right 1-bit position. The content of
+            bit 0 is copied to the Carry flag, and bit 7 is reset. Bit 0 is the least-significant
+            bit.
+            Condition Bits Affected:
+            S is reset
+            Z is set if result is zero; reset otherwise
+            H is reset
+            P/V is set if parity is even; reset otherwise
+            N is reset
+            C is data from bit 0 of source register
+            </summary>
+            <param name="op">The operand</param>
+        </member>
+        <member name="M:Z80.uP.SUB(System.Byte)">
+            <summary>
+            The s operand is subtracted from the contents of the Accumulator, and the
+            result is stored in the Accumulator.
+            Condition Bits Affected:
+            S is set if result is negative; reset otherwise
+            Z is set if result is zero; reset otherwise
+            H is set if borrow from bit 4; reset otherwise
+            P/V is set if overflow; reset otherwise
+            N is set
+            C is set if borrow; reset otherwise
+            </summary>
+            <param name="op">The operand</param>
+        </member>
+        <member name="M:Z80.uP.XOR(System.Byte)">
+            <summary>
+            The logical exclusive-OR operation is performed between the byte
+            specified by the op operand and the byte contained in the Accumulator; the
+            result is stored in the Accumulator.
+            Condition Bits Affected:
+            S is set if result is negative; reset otherwise
+            Z is set if result is zero; reset otherwise
+            H is reset
+            P/V is set if parity even; reset otherwise
+            N is reset
+            C is reset
+            </summary>
+            <param name="op">The operand</param>
+        </member>
+        <member name="P:Z80.uP.StatementsToFetch">
+            <summary>
+            Number of statements to fetch before returning (-1) if no return at all.
+            It should be used for debug purpose (set to -1 after each fetch).
+            </summary>
+        </member>
+        <member name="M:Z80.uP.Execute">
+            <summary>
+            Main execution
+            </summary>
+        </member>
+        <member name="M:Z80.uP.Execute_DDFD(Z80.Register,System.Byte)">
+            <summary>
+            Execution of DD xx codes and FD xx codes.
+            DD and FD prefix change a multiplexer from HL to IX (if prefix is DD) or IY (if prefix is FD)
+            </summary>
+            <param name="RegisterI_">It must be IX if previous opcode was DD, IY if previous opcode was FD</param>
+            <param name="opcode">opcode to execute</param>
+        </member>
+        <member name="M:Z80.uP.Execute_ED(System.Byte)">
+            <summary>
+            Execution of ED xx codes
+            </summary>
+            <param name="opcode">opcode to execute</param>
+        </member>
+        <member name="M:Z80.uP.Execute_CB(System.Byte)">
+            <summary>
+            Execution of CB xx codes
+            </summary>
+            <param name="opcode">opcode to execute</param>
+        </member>
+        <member name="M:Z80.uP.Execute_DDFD_CB(System.UInt16,System.Byte)">
+            <summary>
+            Execution of DD CB xx codes or FD CB xx codes
+            </summary>
+            <param name="Address">Address to act on - Address = I_ + d</param>
+            <param name="opcode">opcode</param>
+        </member>
+        <member name="M:Z80.uP.Execute_CB_on_reg(System.Byte,Z80.HalfRegister)">
+            <summary>
+            This is the low level function called within a CB opcode fetch
+            (single byte or DD CB or FD CB)
+            It must be called after the execution unit has determined on
+            wich register act
+            </summary>
+            <param name="opcode">opcode</param>
+            <param name="reg">Register to act on</param>
+        </member>
+        <member name="T:Z80.Z80Disassembler">
+            <summary>
+            Disassembler for Z80
+            </summary>
+        </member>
+        <member name="T:Z80.Z80Disassembler.ShowFormat">
+            <summary>
+            Preferred show format
+            </summary>
+        </member>
+        <member name="F:Z80.Z80Disassembler.ShowFormat.Hex">
+            <summary>
+            Hexadecimal format (0x_)
+            </summary>
+        </member>
+        <member name="F:Z80.Z80Disassembler.ShowFormat.Decimal">
+            <summary>
+            Decimal format (_)
+            </summary>
+        </member>
+        <member name="M:Z80.Z80Disassembler.#ctor">
+            <summary>
+            Create a new Z80 disassembler
+            </summary>
+        </member>
+        <member name="M:Z80.Z80Disassembler.#ctor(Z80.IMemory)">
+            <summary>
+            Create new Z80 disassembler
+            </summary>
+            <param name="Memory">Memory to debug</param>
+        </member>
+        <member name="P:Z80.Z80Disassembler.Memory">
+            <summary>
+            System memory
+            </summary>
+        </member>
+        <member name="M:Z80.Z80Disassembler.GetHalfRegister(System.Byte)">
+            <summary>
+            From an opcode returns a half register following the rules
+            Reg opcode
+              A xxxxx111
+              B xxxxx000
+              C xxxxx001
+              D xxxxx010
+              E xxxxx011
+              H xxxxx100
+              L xxxxx101
+            </summary>
+            <param name="opcode">opcode</param>
+            <returns>The half register.</returns>
+        </member>
+        <member name="M:Z80.Z80Disassembler.GetHalfRegister(System.Byte,System.String,System.UInt16@)">
+            <summary>
+            From an opcode returns a half register following the rules
+            Reg opcode
+              A xxxxx111
+              B xxxxx000
+              C xxxxx001
+              D xxxxx010
+              E xxxxx011
+              H xxxxx100
+              L xxxxx101
+            </summary>
+            <param name="opcode">opcode</param>
+            <param name="realHL">real HL (it can be HL, IX, IY)</param>
+            <param name="OpCodeAddress">Address of next opcode. It's used if half register is (IX + d) or is (IY + d)</param>
+            <returns>The half register.</returns>
+        </member>
+        <member name="M:Z80.Z80Disassembler.GetRegister(System.Byte,System.Boolean)">
+            <summary>
+            From an opcode return a register following the rules
+            Reg         opcode
+             BC         xx00xxxx
+             DE         xx01xxxx
+             HL         xx10xxxx
+             SP or AF   xx11xxxx
+            </summary>
+            <param name="opcode">opcode</param>
+            <param name="ReturnSP">Checked if opcode is xx11xxxx. If this parameter is true then SP is returned else AF is returned</param>
+            <returns>The register</returns>
+        </member>
+        <member name="M:Z80.Z80Disassembler.CheckFlag(System.Byte)">
+            <summary>
+            Return the flag related to opcode according with the following table:
+            Cond opcode   Flag Description
+            NZ   xx000xxx  Z   Not Zero
+             Z   xx001xxx  Z   Zero
+            NC   xx010xxx  C   Not Carry
+             C   xx011xxx  C   Carry
+            PO   xx100xxx  P/V Parity odd  (Not parity)
+            PE   xx101xxx  P/V Parity even (Parity)
+             P   xx110xxx  S   Sign positive
+             M   xx111xxx  S   Sign negative
+            </summary>
+            <param name="opcode">The opcode</param>
+            <returns>The flag in mnemonic form</returns>
+        </member>
+        <member name="M:Z80.Z80Disassembler.Disassemble(System.UInt16@)">
+            <summary>
+            Main execution
+            </summary>
+        </member>
+        <member name="M:Z80.Z80Disassembler.Disassemble_DDFD(System.String,System.UInt16@)">
+            <summary>
+            Execution of DD xx codes and FD xx codes.
+            DD and FD prefix change a multiplexer from HL to IX (if prefix is DD) or IY (if prefix is FD)
+            </summary>
+            <param name="RegisterI_">It must be IX if previous opcode was DD, IY if previous opcode was FD</param>
+            <param name="OpCodeAddress">Address of next opcode</param>
+        </member>
+        <member name="M:Z80.Z80Disassembler.Disassemble_ED(System.UInt16@)">
+            <summary>
+            Execution of ED xx codes
+            </summary>
+            <param name="opcode">opcode to execute</param>
+        </member>
+        <member name="M:Z80.Z80Disassembler.Disassemble_CB(System.Byte)">
+            <summary>
+            Disassembly of CB xx codes
+            </summary>
+            <param name="opcode">opcode to execute</param>
+        </member>
+        <member name="M:Z80.Z80Disassembler.Disassemble_DDFD_CB(System.String,System.Byte)">
+            <summary>
+            Disassembly of DD CB xx codes or FD CB xx codes
+            </summary>
+            <param name="Address">Address to act on - Address = I_ + d</param>
+            <param name="opcode">opcode</param>
+        </member>
+        <member name="M:Z80.Z80Disassembler.Disassemble_CB_on_reg(System.Byte,System.String)">
+            <summary>
+            This is the low level function called within a CB opcode fetch
+            (single byte or DD CB or FD CB)
+            It must be called after the execution unit has determined on
+            wich register act
+            </summary>
+            <param name="opcode">opcode</param>
+            <param name="reg">Register to act on</param>
+        </member>
+        <member name="T:Z80.Z80HistoryTracer">
+            <summary>
+            Class for tracing Z80 history. It can keep many Z80 status snapshots
+            </summary>
+        </member>
+        <member name="M:Z80.Z80HistoryTracer.#ctor">
+            <summary>
+            Creator
+            </summary>
+        </member>
+        <member name="M:Z80.Z80HistoryTracer.#ctor(Z80.uP)">
+            <summary>
+            Create a new instance. The trace will be based on Z80 specified. During class creation
+            The event OnFetch is catched to perform automatic snapshots
+            </summary>
+            <param name="Z80">Z80 to trace</param>
+        </member>
+        <member name="P:Z80.Z80HistoryTracer.Z80Shots">
+            <summary>
+            The collection of Z80 snapshots
+            </summary>
+        </member>
+        <member name="P:Z80.Z80HistoryTracer.Z80">
+            <summary>
+            Processor. During set, the event OnFetch is catched to perform automatic snapshots
+            </summary>
+        </member>
+        <member name="M:Z80.Z80HistoryTracer._Z80_OnFetch">
+            <summary>
+            Raised when a new instruction in performed
+            </summary>
+        </member>
+        <member name="T:Z80.Z80Shot">
+            <summary>
+            Class to contain a single Z80 snapshot
+            </summary>
+        </member>
+        <member name="M:Z80.Z80Shot.#ctor(Z80.uP)">
+            <summary>
+            Creates a new Z80 shot based on uP status and memory specified
+            </summary>
+            <param name="Z80">Z80 system to shot</param>
+        </member>
+        <member name="P:Z80.Z80Shot.Status">
+            <summary>
+            Z80 Status shot
+            </summary>
+        </member>
+        <member name="P:Z80.Z80Shot.SPMemory">
+            <summary>
+            Some bytes of memory next to SP shot
+            </summary>
+        </member>
+        <member name="P:Z80.Z80Shot.PCMemory">
+            <summary>
+            Some bytes of memory next to PC shot
+            </summary>
+        </member>
+        <member name="T:Z80.Z80Shot.MemoryShot">
+            <summary>
+            Contains a snapshot of some bytes of memory
+            </summary>
+        </member>
+        <member name="M:Z80.Z80Shot.MemoryShot.#ctor(Z80.IMemory,System.UInt16,System.Byte)">
+            <summary>
+            Take a shot of Lenght bytes of memory
+            </summary>
+            <param name="Memory">Source Memory</param>
+            <param name="StartAddress">Address where copy start</param>
+            <param name="Lenght">Number of bytes to copy</param>
+        </member>
+        <member name="M:Z80.Z80Shot.MemoryShot.#ctor(Z80.IMemory,System.UInt16)">
+            <summary>
+            Take a shot of 10 bytes of memory
+            </summary>
+            <param name="Memory">Source Memory</param>
+            <param name="StartAddress">Address where copy will start</param>
+        </member>
+        <member name="P:Z80.Z80Shot.MemoryShot.Item(System.Int32)">
+            <summary>
+            Get a byte from the snapshot
+            </summary>
+        </member>
+        <member name="E:Z80.Z80Shot.MemoryShot.OnRead">
+            <summary>
+            Never raised, implemented only for compatibility with the interface
+            </summary>
+        </member>
+        <member name="E:Z80.Z80Shot.MemoryShot.OnWrite">
+            <summary>
+            Never raised, implemented only for compatibility with the interface
+            </summary>
+        </member>
+        <member name="P:Z80.Z80Shot.MemoryShot.Raw">
+            <summary>
+            Raw memory (it raises an error because we don't have the whole memory here).
+            </summary>
+        </member>
+        <member name="P:Z80.Z80Shot.MemoryShot.Size">
+            <summary>
+            Memory size (it raises an error because we don't have the whole memory here).
+            </summary>
+        </member>
+        <member name="M:Z80.Z80Shot.MemoryShot.ReadByte(System.UInt16)">
+            <summary>
+            Read a single byte from snapshot
+            </summary>
+            <param name="Address">Absolute address</param>
+            <returns>The byte readed</returns>
+        </member>
+        <member name="M:Z80.Z80Shot.MemoryShot.ReadWord(System.UInt16)">
+            <summary>
+            Read a single word from snapshot
+            </summary>
+            <param name="Address">Absolute address</param>
+            <returns>The word readed</returns>
+        </member>
+        <member name="M:Z80.Z80Shot.MemoryShot.WriteByte(System.UInt16,System.Byte)">
+            <summary>
+            Writes a single byte to snapshot
+            </summary>
+            <param name="Address">Absolute address</param>
+            <param name="Value">The value to write</param>
+        </member>
+        <member name="M:Z80.Z80Shot.MemoryShot.WriteWord(System.UInt16,System.UInt16)">
+            <summary>
+            Write a single word to snapshot
+            </summary>
+            <param name="Address">Absolute address</param>
+            <param name="Value">The value to write</param>
+        </member>
+        <member name="T:Z80.Z80ShotCollection">
+            <summary>
+            Contains a set of Z80 shots
+            </summary>
+        </member>
+        <member name="M:Z80.Z80ShotCollection.Add(Z80.uP)">
+            <summary>
+            Creates and add a new Z80 snapshot
+            </summary>
+            <param name="Z80">Z80 to take a snapshot on</param>
+            <returns>The just created Z80 snapshot</returns>
+        </member>
+        <member name="M:Z80.Z80ShotCollection.TrimCollection">
+            <summary>
+            Trims the collection to the size specified in MaxLength
+            </summary>
+        </member>
+        <member name="P:Z80.Z80ShotCollection.Count">
+            <summary>
+            Number of Z80 shots contained in the collection
+            </summary>
+        </member>
+        <member name="P:Z80.Z80ShotCollection.MaxLength">
+            <summary>
+            Maximum Z80 shots that this collection will contain (100 by default). Specify a negative number to unlimit the size
+            </summary>
+        </member>
+        <member name="P:Z80.Z80ShotCollection.Item(System.Int32)">
+            <summary>
+            Gets a single shot
+            </summary>
+        </member>
+        <member name="M:Z80.Z80ShotCollection.GetEnumerator">
+            <summary>
+            Gets an enumerator to iterate the collection
+            </summary>
+            <returns>The enumerator</returns>
+        </member>
+    </members>
+</doc>

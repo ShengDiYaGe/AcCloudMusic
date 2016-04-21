@@ -1,0 +1,222 @@
+/* CSS Document */
+.tom{
+font-family:"新宋体";
+font-size:14px;
+line-height:21px;
+color:#D90005;
+}
+.tom1{
+	font-family:"新宋体";
+	font-size:18px;
+	line-height:50px;
+	color:#FF0000;
+}
+.yang {
+	font-family: "新宋体";
+	font-size:12px;
+	line-height: 19px;
+	color: #FF0000;
+	text-decoration: none;
+}
+.yang2 {
+	font-family: "新宋体";
+	font-size: 11pt;
+	font-style: normal;
+	line-height: 20px;
+	color: #FFFFFF;
+	text-decoration: none;
+	font-weight: bold;
+}
+.yang3 {
+	font-family: "新宋体";
+	font-size: 12px;
+	color: #999999;
+	text-decoration: none;
+	line-height: 5px;
+}
+.yang4 {
+	font-family: "新宋体";
+	font-size: 9pt;
+	color: #E9A71F;
+	text-decoration: none;
+}
+.yang5 {
+	font-family: "新宋体";
+	font-size: 11pt;
+	line-height: 20px;
+	color: #000099;
+	text-decoration: none;
+}
+.yang6 {
+	font-family: "新宋体";
+	font-size: 16pt;
+	color: #FF0000;
+	text-decoration: none;
+}
+.yang7 {
+	font-family: "新宋体";
+	font-size: 11pt;
+	color: #A4A406;
+	text-decoration: none;
+}
+.yang8 {
+	font-family: "新宋体";
+	font-size: 9pt;
+	color: #000000;
+	text-decoration: none;
+	line-height: 18px;
+}
+.yang9 {
+	font-family: "新宋体";
+	font-size:10pt;
+	color: #000000;
+	text-decoration: none;
+	line-height: 23px;
+}
+.yang10 {
+	font-family: "新宋体";
+	font-size: 10pt;
+	line-height: 18px;
+	color: #00008C;
+	text-decoration: none;
+}
+.yang11 {
+	font-family: "新宋体";
+	font-size: 11pt;
+	color: #FF0000;
+	text-decoration: none;
+}
+.yang12 {
+	font-family: "新宋体";
+	font-size: 12pt;
+	color: #0000CC;
+	text-decoration: none;
+	line-height: 20px;
+}
+.yang13 {
+	font-family: "新宋体";
+	font-size: 13px;
+	color: #FFFFFF;
+	text-decoration: none;
+	font-weight: bolder;
+}
+.yang14 {
+	font-family: "新宋体";
+	font-size: 21pt;
+	font-weight: bold;
+	color: #FF0000;
+	text-decoration: none;
+	font-style: normal;
+	line-height: 23pt;
+	letter-spacing:0.1em;
+}
+.yang15 {
+	font-family: "新宋体";
+	font-size: 11pt;
+	color: #000000;
+	text-decoration: none;
+	font-weight: bold;
+}
+.yang16 {
+	font-family: "新宋体";
+	font-size: 14pt;
+	font-weight: bold;
+	color: #FF0000;
+	text-decoration: none;
+}
+.yang17 {
+	font-family: "新宋体";
+	font-size: 9pt;
+	font-weight: normal;
+	color: #FF0000;
+	text-decoration: none;
+}
+.yang18 {
+	font-family: "新宋体";
+	font-size: 12pt;
+	line-height: 20px;
+	color: #FF0000;
+	text-decoration: none;
+}
+.yang19 {
+	font-family: "新宋体";
+	font-size: 18pt;
+	color: #FF0000;
+	text-decoration: none;
+	font-weight: bold;
+}
+.yang20 {
+	font-family: "新宋体";
+	font-size: 9pt;
+	line-height: 23px;
+	color: #1E5AFB;
+	text-decoration: none;
+}
+.yang21 {
+	font-family: "新宋体";
+	font-size: 9pt;
+	color: #FF0000;
+	text-decoration: none;
+	line-height: 11pt;
+}
+.yangd{
+	font-family: "新宋体";
+	font-size: 12px;
+	line-height: 18px;
+	color: #00008C;
+	text-decoration: none;
+}
+.yangd a:link {
+	font-family: "新宋体";
+	font-size: 12px;
+	line-height: 18px;
+	color: #00008C;
+	text-decoration: none;
+}
+.yangd a:visited {
+	font-family: "新宋体";
+	font-size: 12px;
+	line-height: 18px;
+	color: #00008C;
+	text-decoration: none;
+}
+.yangd a:hover{
+	font-family: "新宋体";
+	font-size: 12px;
+	line-height: 18px;
+	color: #ff0000;
+	text-decoration:underline
+}
+.yangd a:active {
+	font-family: "新宋体";
+	font-size: 12px;
+	line-height: 18px;
+	color: #ff0000;
+	text-decoration: none;
+}
+.itd {
+	font-family: "新宋体";
+	font-size:10pt;
+	color: #000000;
+	line-height: 24px;
+	letter-spacing:-0.05em;
+}
+a {
+	font-size: 12px;
+	color: #FF0000;
+}
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #FF0000;
+}
+a:hover {
+	text-decoration: underline;
+	color: #FF0000;
+}
+a:active {
+	text-decoration: none;
+	color: #FF0000;
+}

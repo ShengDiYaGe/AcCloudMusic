@@ -1,0 +1,16 @@
+C:\PROJECT\辐射百科\AppStudio\bin\Debug\ReverseMap\resources.pri
+C:\PROJECT\辐射百科\AppStudio\bin\Debug\AppxManifest.xml
+C:\PROJECT\辐射百科\AppStudio\bin\Debug\AppStudio.build.appxrecipe
+C:\PROJECT\辐射百科\AppStudio\bld\Debug\ResourceHandlingTask.state
+C:\PROJECT\辐射百科\AppStudio\bld\Debug\priconfig.xml
+C:\PROJECT\辐射百科\AppStudio\bld\Debug\priconfig.xml.intermediate
+C:\PROJECT\辐射百科\AppStudio\bld\Debug\layout.resfiles
+C:\PROJECT\辐射百科\AppStudio\bld\Debug\layout.resfiles.intermediate
+C:\PROJECT\辐射百科\AppStudio\bld\Debug\resources.resfiles
+C:\PROJECT\辐射百科\AppStudio\bld\Debug\resources.resfiles.intermediate
+C:\PROJECT\辐射百科\AppStudio\bld\Debug\pri.resfiles
+C:\PROJECT\辐射百科\AppStudio\bld\Debug\pri.resfiles.intermediate
+C:\PROJECT\辐射百科\AppStudio\bld\Debug\qualifiers.txt
+C:\PROJECT\辐射百科\AppStudio\bld\Debug\qualifiers.txt.intermediate
+C:\PROJECT\辐射百科\AppStudio\bld\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\PROJECT\辐射百科\AppStudio\bld\Debug\ProjectArchitectures.txt

@@ -1,0 +1,16 @@
+C:\PROJECT\CommunistManifesto\App1\bin\x86\Debug\ReverseMap\resources.pri
+C:\PROJECT\CommunistManifesto\App1\bin\x86\Debug\AppxManifest.xml
+C:\PROJECT\CommunistManifesto\App1\bin\x86\Debug\CommunistManifestoJS.build.appxrecipe
+C:\PROJECT\CommunistManifesto\App1\bld\x86\Debug\ResourceHandlingTask.state
+C:\PROJECT\CommunistManifesto\App1\bld\x86\Debug\priconfig.xml
+C:\PROJECT\CommunistManifesto\App1\bld\x86\Debug\priconfig.xml.intermediate
+C:\PROJECT\CommunistManifesto\App1\bld\x86\Debug\layout.resfiles
+C:\PROJECT\CommunistManifesto\App1\bld\x86\Debug\layout.resfiles.intermediate
+C:\PROJECT\CommunistManifesto\App1\bld\x86\Debug\resources.resfiles
+C:\PROJECT\CommunistManifesto\App1\bld\x86\Debug\resources.resfiles.intermediate
+C:\PROJECT\CommunistManifesto\App1\bld\x86\Debug\pri.resfiles
+C:\PROJECT\CommunistManifesto\App1\bld\x86\Debug\pri.resfiles.intermediate
+C:\PROJECT\CommunistManifesto\App1\bld\x86\Debug\qualifiers.txt
+C:\PROJECT\CommunistManifesto\App1\bld\x86\Debug\qualifiers.txt.intermediate
+C:\PROJECT\CommunistManifesto\App1\bld\x86\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\PROJECT\CommunistManifesto\App1\bld\x86\Debug\ProjectArchitectures.txt
